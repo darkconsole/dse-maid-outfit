@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="DCC - Maid - Padded Panty">
+        <DataFolder>DCC - Maid - Padded Panty</DataFolder>
+        <SourceFile>DCC - Maid - Padded Panty.nif</SourceFile>
+        <OutputPath>meshes\dcc-maid\panties</OutputPath>
+        <OutputFile GenWeights="true">panty-wpadding</OutputFile>
+        <Shape target="Armour">Armour</Shape>
+        <Shape target="Bow">Bow</Shape>
+        <Shape target="BaseShapeHR" DataFolder="CBBE">CBBE</Shape>
+        <Shape target="Lace">Lace</Shape>
+        <Shape target="Panty">Panty</Shape>
+        <Slider name="AnkleSize" invert="false" small="100" big="0">
+            <Data name="BaseShapeHRAnkleSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRAnkleSize</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRAppleCheeks" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRAppleCheeks</Data>
+            <Data name="ArmourAppleCheeks" target="Armour" local="true">DCC - Maid - Padded Panty.osd\ArmourAppleCheeks</Data>
+            <Data name="LaceAppleCheeks" target="Lace" local="true">DCC - Maid - Padded Panty.osd\LaceAppleCheeks</Data>
+            <Data name="PantyAppleCheeks" target="Panty" local="true">DCC - Maid - Padded Panty.osd\PantyAppleCheeks</Data>
+        </Slider>
+        <Slider name="AreolaSize" invert="false" small="0" big="0" uv="true">
+            <Data name="BaseShapeHRAreolaSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRAreolaSize</Data>
+        </Slider>
+        <Slider name="Arms" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRarms" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRarms</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBack" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBack</Data>
+            <Data name="LaceBack" target="Lace" local="true">DCC - Maid - Padded Panty.osd\LaceBack</Data>
+            <Data name="PantyBack" target="Panty" local="true">DCC - Maid - Padded Panty.osd\PantyBack</Data>
+        </Slider>
+        <Slider name="BackArch" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBackArch" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBackArch</Data>
+            <Data name="LaceBackArch" target="Lace" local="true">DCC - Maid - Padded Panty.osd\LaceBackArch</Data>
+            <Data name="PantyBackArch" target="Panty" local="true">DCC - Maid - Padded Panty.osd\PantyBackArch</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBelly" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBelly</Data>
+            <Data name="ArmourBelly" target="Armour" local="true">DCC - Maid - Padded Panty.osd\ArmourBelly</Data>
+            <Data name="BowBelly" target="Bow" local="true">DCC - Maid - Padded Panty.osd\BowBelly</Data>
+            <Data name="LaceBelly" target="Lace" local="true">DCC - Maid - Padded Panty.osd\LaceBelly</Data>
+            <Data name="PantyBelly" target="Panty" local="true">DCC - Maid - Padded Panty.osd\PantyBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBigBelly" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBigBelly</Data>
+            <Data name="ArmourBigBelly" target="Armour" local="true">DCC - Maid - Padded Panty.osd\ArmourBigBelly</Data>
+            <Data name="BowBigBelly" target="Bow" local="true">DCC - Maid - Padded Panty.osd\BowBigBelly</Data>
+            <Data name="LaceBigBelly" target="Lace" local="true">DCC - Maid - Padded Panty.osd\LaceBigBelly</Data>
+            <Data name="PantyBigBelly" target="Panty" local="true">DCC - Maid - Padded Panty.osd\PantyBigBelly</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBigButt" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBigButt</Data>
+            <Data name="ArmourBigButt" target="Armour" local="true">DCC - Maid - Padded Panty.osd\ArmourBigButt</Data>
+            <Data name="BowBigButt" target="Bow" local="true">DCC - Maid - Padded Panty.osd\BowBigButt</Data>
+            <Data name="LaceBigButt" target="Lace" local="true">DCC - Maid - Padded Panty.osd\LaceBigButt</Data>
+            <Data name="PantyBigButt" target="Panty" local="true">DCC - Maid - Padded Panty.osd\PantyBigButt</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBigTorso" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBigTorso</Data>
+            <Data name="ArmourBigTorso" target="Armour" local="true">DCC - Maid - Padded Panty.osd\ArmourBigTorso</Data>
+            <Data name="BowBigTorso" target="Bow" local="true">DCC - Maid - Padded Panty.osd\BowBigTorso</Data>
+            <Data name="LaceBigTorso" target="Lace" local="true">DCC - Maid - Padded Panty.osd\LaceBigTorso</Data>
+            <Data name="PantyBigTorso" target="Panty" local="true">DCC - Maid - Padded Panty.osd\PantyBigTorso</Data>
+        </Slider>
+        <Slider name="BreastCenter" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastCenter" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastCenter</Data>
+        </Slider>
+        <Slider name="BreastCenterBig" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastCenterBig" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastCenterBig</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastCleavage" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastCleavage</Data>
+            <Data name="ArmourBreastCleavage" target="Armour" local="true">DCC - Maid - Padded Panty.osd\ArmourBreastCleavage</Data>
+            <Data name="PantyBreastCleavage" target="Panty" local="true">DCC - Maid - Padded Panty.osd\PantyBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastFlatness2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastFlatness2</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastFlattness" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastFlattness</Data>
+        </Slider>
+        <Slider name="BreastGravity2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastGravity2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastGravity2</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastHeight" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastPerkiness" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastPerkiness</Data>
+        </Slider>
+        <Slider name="Breasts" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreasts" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreasts</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsFantasy" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsFantasy</Data>
+        </Slider>
+        <Slider name="BreastsGone" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsGone" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsGone</Data>
+        </Slider>
+        <Slider name="BreastsNewSH" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsNewSH" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsNewSH</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsSmall" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsSmall</Data>
+            <Data name="ArmourBreastsSmall" target="Armour" local="true">DCC - Maid - Padded Panty.osd\ArmourBreastsSmall</Data>
+            <Data name="BowBreastsSmall" target="Bow" local="true">DCC - Maid - Padded Panty.osd\BowBreastsSmall</Data>
+            <Data name="LaceBreastsSmall" target="Lace" local="true">DCC - Maid - Padded Panty.osd\LaceBreastsSmall</Data>
+            <Data name="PantyBreastsSmall" target="Panty" local="true">DCC - Maid - Padded Panty.osd\PantyBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSmall2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsSmall2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsSmall2</Data>
+            <Data name="ArmourBreastsSmall2" target="Armour" local="true">DCC - Maid - Padded Panty.osd\ArmourBreastsSmall2</Data>
+            <Data name="BowBreastsSmall2" target="Bow" local="true">DCC - Maid - Padded Panty.osd\BowBreastsSmall2</Data>
+            <Data name="LaceBreastsSmall2" target="Lace" local="true">DCC - Maid - Padded Panty.osd\LaceBreastsSmall2</Data>
+            <Data name="PantyBreastsSmall2" target="Panty" local="true">DCC - Maid - Padded Panty.osd\PantyBreastsSmall2</Data>
+        </Slider>
+        <Slider name="BreastsTogether" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsTogether" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsTogether</Data>
+        </Slider>
+        <Slider name="BreastTopSlope" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastTopSlope" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastTopSlope</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastWidth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastWidth</Data>
+        </Slider>
+        <Slider name="Butt" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButt" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButt</Data>
+            <Data name="ArmourButt" target="Armour" local="true">DCC - Maid - Padded Panty.osd\ArmourButt</Data>
+            <Data name="LaceButt" target="Lace" local="true">DCC - Maid - Padded Panty.osd\LaceButt</Data>
+            <Data name="PantyButt" target="Panty" local="true">DCC - Maid - Padded Panty.osd\PantyButt</Data>
+        </Slider>
+        <Slider name="ButtClassic" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtClassic" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtClassic</Data>
+            <Data name="ArmourButtClassic" target="Armour" local="true">DCC - Maid - Padded Panty.osd\ArmourButtClassic</Data>
+            <Data name="BowButtClassic" target="Bow" local="true">DCC - Maid - Padded Panty.osd\BowButtClassic</Data>
+            <Data name="LaceButtClassic" target="Lace" local="true">DCC - Maid - Padded Panty.osd\LaceButtClassic</Data>
+            <Data name="PantyButtClassic" target="Panty" local="true">DCC - Maid - Padded Panty.osd\PantyButtClassic</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtCrack" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtCrack</Data>
+            <Data name="LaceButtCrack" target="Lace" local="true">DCC - Maid - Padded Panty.osd\LaceButtCrack</Data>
+            <Data name="PantyButtCrack" target="Panty" local="true">DCC - Maid - Padded Panty.osd\PantyButtCrack</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtShape2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtShape2</Data>
+            <Data name="ArmourButtShape2" target="Armour" local="true">DCC - Maid - Padded Panty.osd\ArmourButtShape2</Data>
+            <Data name="BowButtShape2" target="Bow" local="true">DCC - Maid - Padded Panty.osd\BowButtShape2</Data>
+            <Data name="LaceButtShape2" target="Lace" local="true">DCC - Maid - Padded Panty.osd\LaceButtShape2</Data>
+            <Data name="PantyButtShape2" target="Panty" local="true">DCC - Maid - Padded Panty.osd\PantyButtShape2</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtSmall" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtSmall</Data>
+            <Data name="ArmourButtSmall" target="Armour" local="true">DCC - Maid - Padded Panty.osd\ArmourButtSmall</Data>
+            <Data name="BowButtSmall" target="Bow" local="true">DCC - Maid - Padded Panty.osd\BowButtSmall</Data>
+            <Data name="LaceButtSmall" target="Lace" local="true">DCC - Maid - Padded Panty.osd\LaceButtSmall</Data>
+            <Data name="PantyButtSmall" target="Panty" local="true">DCC - Maid - Padded Panty.osd\PantyButtSmall</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCalfSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCalfSmooth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRCalfSmooth</Data>
+        </Slider>
+        <Slider name="ChestDepth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChestDepth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChestDepth</Data>
+            <Data name="ArmourChestDepth" target="Armour" local="true">DCC - Maid - Padded Panty.osd\ArmourChestDepth</Data>
+            <Data name="BowChestDepth" target="Bow" local="true">DCC - Maid - Padded Panty.osd\BowChestDepth</Data>
+            <Data name="LaceChestDepth" target="Lace" local="true">DCC - Maid - Padded Panty.osd\LaceChestDepth</Data>
+            <Data name="PantyChestDepth" target="Panty" local="true">DCC - Maid - Padded Panty.osd\PantyChestDepth</Data>
+        </Slider>
+        <Slider name="ChestWidth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChestWidth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChestWidth</Data>
+            <Data name="LaceChestWidth" target="Lace" local="true">DCC - Maid - Padded Panty.osd\LaceChestWidth</Data>
+            <Data name="PantyChestWidth" target="Panty" local="true">DCC - Maid - Padded Panty.osd\PantyChestWidth</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChubbyArms" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChubbyArms</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChubbyButt" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChubbyButt</Data>
+            <Data name="ArmourChubbyButt" target="Armour" local="true">DCC - Maid - Padded Panty.osd\ArmourChubbyButt</Data>
+            <Data name="BowChubbyButt" target="Bow" local="true">DCC - Maid - Padded Panty.osd\BowChubbyButt</Data>
+            <Data name="LaceChubbyButt" target="Lace" local="true">DCC - Maid - Padded Panty.osd\LaceChubbyButt</Data>
+            <Data name="PantyChubbyButt" target="Panty" local="true">DCC - Maid - Padded Panty.osd\PantyChubbyButt</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChubbyLegs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChubbyLegs</Data>
+            <Data name="ArmourChubbyLegs" target="Armour" local="true">DCC - Maid - Padded Panty.osd\ArmourChubbyLegs</Data>
+            <Data name="BowChubbyLegs" target="Bow" local="true">DCC - Maid - Padded Panty.osd\BowChubbyLegs</Data>
+            <Data name="LaceChubbyLegs" target="Lace" local="true">DCC - Maid - Padded Panty.osd\LaceChubbyLegs</Data>
+            <Data name="PantyChubbyLegs" target="Panty" local="true">DCC - Maid - Padded Panty.osd\PantyChubbyLegs</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChubbyWaist" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChubbyWaist</Data>
+            <Data name="ArmourChubbyWaist" target="Armour" local="true">DCC - Maid - Padded Panty.osd\ArmourChubbyWaist</Data>
+            <Data name="BowChubbyWaist" target="Bow" local="true">DCC - Maid - Padded Panty.osd\BowChubbyWaist</Data>
+            <Data name="LaceChubbyWaist" target="Lace" local="true">DCC - Maid - Padded Panty.osd\LaceChubbyWaist</Data>
+            <Data name="PantyChubbyWaist" target="Panty" local="true">DCC - Maid - Padded Panty.osd\PantyChubbyWaist</Data>
+        </Slider>
+        <Slider name="CrotchBack" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCrotchBack" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRCrotchBack</Data>
+            <Data name="ArmourCrotchBack" target="Armour" local="true">DCC - Maid - Padded Panty.osd\ArmourCrotchBack</Data>
+            <Data name="BowCrotchBack" target="Bow" local="true">DCC - Maid - Padded Panty.osd\BowCrotchBack</Data>
+            <Data name="LaceCrotchBack" target="Lace" local="true">DCC - Maid - Padded Panty.osd\LaceCrotchBack</Data>
+            <Data name="PantyCrotchBack" target="Panty" local="true">DCC - Maid - Padded Panty.osd\PantyCrotchBack</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRDoubleMelon" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRDoubleMelon</Data>
+        </Slider>
+        <Slider name="ForearmSize" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRForearmSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRForearmSize</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRGroin" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRGroin</Data>
+            <Data name="ArmourGroin" target="Armour" local="true">DCC - Maid - Padded Panty.osd\ArmourGroin</Data>
+            <Data name="BowGroin" target="Bow" local="true">DCC - Maid - Padded Panty.osd\BowGroin</Data>
+            <Data name="LaceGroin" target="Lace" local="true">DCC - Maid - Padded Panty.osd\LaceGroin</Data>
+            <Data name="PantyGroin" target="Panty" local="true">DCC - Maid - Padded Panty.osd\PantyGroin</Data>
+        </Slider>
+        <Slider name="HipBone" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHipbone" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHipbone</Data>
+            <Data name="ArmourHipBone" target="Armour" local="true">DCC - Maid - Padded Panty.osd\ArmourHipBone</Data>
+            <Data name="BowHipBone" target="Bow" local="true">DCC - Maid - Padded Panty.osd\BowHipBone</Data>
+            <Data name="LaceHipBone" target="Lace" local="true">DCC - Maid - Padded Panty.osd\LaceHipBone</Data>
+            <Data name="PantyHipBone" target="Panty" local="true">DCC - Maid - Padded Panty.osd\PantyHipBone</Data>
+        </Slider>
+        <Slider name="HipForward" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHipForward" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHipForward</Data>
+            <Data name="ArmourHipForward" target="Armour" local="true">DCC - Maid - Padded Panty.osd\ArmourHipForward</Data>
+            <Data name="BowHipForward" target="Bow" local="true">DCC - Maid - Padded Panty.osd\BowHipForward</Data>
+            <Data name="LaceHipForward" target="Lace" local="true">DCC - Maid - Padded Panty.osd\LaceHipForward</Data>
+            <Data name="PantyHipForward" target="Panty" local="true">DCC - Maid - Padded Panty.osd\PantyHipForward</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHips" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHips</Data>
+            <Data name="ArmourHips" target="Armour" local="true">DCC - Maid - Padded Panty.osd\ArmourHips</Data>
+            <Data name="BowHips" target="Bow" local="true">DCC - Maid - Padded Panty.osd\BowHips</Data>
+            <Data name="LaceHips" target="Lace" local="true">DCC - Maid - Padded Panty.osd\LaceHips</Data>
+            <Data name="PantyHips" target="Panty" local="true">DCC - Maid - Padded Panty.osd\PantyHips</Data>
+        </Slider>
+        <Slider name="HipUpperWidth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHipUpperWidth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHipUpperWidth</Data>
+            <Data name="ArmourHipUpperWidth" target="Armour" local="true">DCC - Maid - Padded Panty.osd\ArmourHipUpperWidth</Data>
+            <Data name="LaceHipUpperWidth" target="Lace" local="true">DCC - Maid - Padded Panty.osd\LaceHipUpperWidth</Data>
+            <Data name="PantyHipUpperWidth" target="Panty" local="true">DCC - Maid - Padded Panty.osd\PantyHipUpperWidth</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRKneeHeight" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRKneeHeight</Data>
+        </Slider>
+        <Slider name="LegShapeClassic" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRLegShapeClassic" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRLegShapeClassic</Data>
+        </Slider>
+        <Slider name="LegsThin" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRLegsThin" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRLegsThin</Data>
+            <Data name="LaceLegsThin" target="Lace" local="true">DCC - Maid - Padded Panty.osd\LaceLegsThin</Data>
+        </Slider>
+        <Slider name="MuscleAbs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleAbs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleAbs</Data>
+            <Data name="ArmourMuscleAbs" target="Armour" local="true">DCC - Maid - Padded Panty.osd\ArmourMuscleAbs</Data>
+            <Data name="BowMuscleAbs" target="Bow" local="true">DCC - Maid - Padded Panty.osd\BowMuscleAbs</Data>
+            <Data name="LaceMuscleAbs" target="Lace" local="true">DCC - Maid - Padded Panty.osd\LaceMuscleAbs</Data>
+            <Data name="PantyMuscleAbs" target="Panty" local="true">DCC - Maid - Padded Panty.osd\PantyMuscleAbs</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleArms" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleArms</Data>
+        </Slider>
+        <Slider name="MuscleButt" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleButt" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleButt</Data>
+            <Data name="LaceMuscleButt" target="Lace" local="true">DCC - Maid - Padded Panty.osd\LaceMuscleButt</Data>
+            <Data name="PantyMuscleButt" target="Panty" local="true">DCC - Maid - Padded Panty.osd\PantyMuscleButt</Data>
+        </Slider>
+        <Slider name="MuscleLegs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleLegs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleLegs</Data>
+            <Data name="ArmourMuscleLegs" target="Armour" local="true">DCC - Maid - Padded Panty.osd\ArmourMuscleLegs</Data>
+            <Data name="LaceMuscleLegs" target="Lace" local="true">DCC - Maid - Padded Panty.osd\LaceMuscleLegs</Data>
+            <Data name="PantyMuscleLegs" target="Panty" local="true">DCC - Maid - Padded Panty.osd\PantyMuscleLegs</Data>
+        </Slider>
+        <Slider name="MusclePecs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMusclePecs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMusclePecs</Data>
+        </Slider>
+        <Slider name="NeckSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="BaseShapeHRNeckSeam" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNeckSeam</Data>
+        </Slider>
+        <Slider name="NipBGone" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNipBGone" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNipBGone</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleDistance" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleDistance</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleDown" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleDown</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleLength" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleLength</Data>
+        </Slider>
+        <Slider name="NippleManga" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleManga" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleManga</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNipplePerkiness" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NipplePerkManga" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNipplePerkManga" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNipplePerkManga</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleSize</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleTip" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleTip</Data>
+        </Slider>
+        <Slider name="NippleTipManga" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleTipManga" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleTipManga</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleUp" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleUp</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRPregnancyBelly" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRPregnancyBelly</Data>
+            <Data name="ArmourPregnancyBelly" target="Armour" local="true">DCC - Maid - Padded Panty.osd\ArmourPregnancyBelly</Data>
+            <Data name="BowPregnancyBelly" target="Bow" local="true">DCC - Maid - Padded Panty.osd\BowPregnancyBelly</Data>
+            <Data name="LacePregnancyBelly" target="Lace" local="true">DCC - Maid - Padded Panty.osd\LacePregnancyBelly</Data>
+            <Data name="PantyPregnancyBelly" target="Panty" local="true">DCC - Maid - Padded Panty.osd\PantyPregnancyBelly</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRPushUp" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRPushUp</Data>
+        </Slider>
+        <Slider name="RibsProminance" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRRibsProminance" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRRibsProminance</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRRoundAss" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRRoundAss</Data>
+            <Data name="LaceRoundAss" target="Lace" local="true">DCC - Maid - Padded Panty.osd\LaceRoundAss</Data>
+            <Data name="PantyRoundAss" target="Panty" local="true">DCC - Maid - Padded Panty.osd\PantyRoundAss</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRShoulderSmooth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRshouldertweak" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRshouldertweak</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRshoulderWidth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRshoulderWidth</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRSlimThighs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRSlimThighs</Data>
+            <Data name="ArmourSlimThighs" target="Armour" local="true">DCC - Maid - Padded Panty.osd\ArmourSlimThighs</Data>
+            <Data name="LaceSlimThighs" target="Lace" local="true">DCC - Maid - Padded Panty.osd\LaceSlimThighs</Data>
+            <Data name="PantySlimThighs" target="Panty" local="true">DCC - Maid - Padded Panty.osd\PantySlimThighs</Data>
+        </Slider>
+        <Slider name="SternumDepth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRSternumDepth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRSternumDepth</Data>
+        </Slider>
+        <Slider name="SternumHeight" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRSternumHeight" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRSternumHeight</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRThighs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRThighs</Data>
+            <Data name="ArmourThighs" target="Armour" local="true">DCC - Maid - Padded Panty.osd\ArmourThighs</Data>
+            <Data name="BowThighs" target="Bow" local="true">DCC - Maid - Padded Panty.osd\BowThighs</Data>
+            <Data name="LaceThighs" target="Lace" local="true">DCC - Maid - Padded Panty.osd\LaceThighs</Data>
+            <Data name="PantyThighs" target="Panty" local="true">DCC - Maid - Padded Panty.osd\PantyThighs</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRTummyTuck" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRTummyTuck</Data>
+            <Data name="ArmourTummyTuck" target="Armour" local="true">DCC - Maid - Padded Panty.osd\ArmourTummyTuck</Data>
+            <Data name="BowTummyTuck" target="Bow" local="true">DCC - Maid - Padded Panty.osd\BowTummyTuck</Data>
+            <Data name="LaceTummyTuck" target="Lace" local="true">DCC - Maid - Padded Panty.osd\LaceTummyTuck</Data>
+            <Data name="PantyTummyTuck" target="Panty" local="true">DCC - Maid - Padded Panty.osd\PantyTummyTuck</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRwaist" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRwaist</Data>
+            <Data name="ArmourWaist" target="Armour" local="true">DCC - Maid - Padded Panty.osd\ArmourWaist</Data>
+            <Data name="BowWaist" target="Bow" local="true">DCC - Maid - Padded Panty.osd\BowWaist</Data>
+            <Data name="LaceWaist" target="Lace" local="true">DCC - Maid - Padded Panty.osd\LaceWaist</Data>
+            <Data name="PantyWaist" target="Panty" local="true">DCC - Maid - Padded Panty.osd\PantyWaist</Data>
+        </Slider>
+        <Slider name="WaistHeight" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRWaistHeight" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRWaistHeight</Data>
+            <Data name="ArmourWaistHeight" target="Armour" local="true">DCC - Maid - Padded Panty.osd\ArmourWaistHeight</Data>
+            <Data name="BowWaistHeight" target="Bow" local="true">DCC - Maid - Padded Panty.osd\BowWaistHeight</Data>
+            <Data name="LaceWaistHeight" target="Lace" local="true">DCC - Maid - Padded Panty.osd\LaceWaistHeight</Data>
+            <Data name="PantyWaistHeight" target="Panty" local="true">DCC - Maid - Padded Panty.osd\PantyWaistHeight</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRWideWaistLine" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRWideWaistLine</Data>
+            <Data name="LaceWideWaistLine" target="Lace" local="true">DCC - Maid - Padded Panty.osd\LaceWideWaistLine</Data>
+            <Data name="PantyWideWaistLine" target="Panty" local="true">DCC - Maid - Padded Panty.osd\PantyWideWaistLine</Data>
+        </Slider>
+        <Slider name="WristSize" invert="false" small="100" big="0">
+            <Data name="BaseShapeHRWristSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRWristSize</Data>
+        </Slider>
+        <Slider name="7B Lower" invert="false" small="0" big="0">
+            <Data name="BaseShapeHR7B Lower" target="BaseShapeHR">CBBE Body.osd\BaseShapeHR7B Lower</Data>
+            <Data name="Armour7B Lower" target="Armour" local="true">DCC - Maid - Padded Panty.osd\Armour7B Lower</Data>
+            <Data name="Bow7B Lower" target="Bow" local="true">DCC - Maid - Padded Panty.osd\Bow7B Lower</Data>
+            <Data name="Lace7B Lower" target="Lace" local="true">DCC - Maid - Padded Panty.osd\Lace7B Lower</Data>
+            <Data name="Panty7B Lower" target="Panty" local="true">DCC - Maid - Padded Panty.osd\Panty7B Lower</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="BaseShapeHR7B Upper" target="BaseShapeHR">CBBE Body.osd\BaseShapeHR7B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRVanillaSSEHi" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRVanillaSSEHi</Data>
+            <Data name="ArmourVanillaSSEHi" target="Armour" local="true">DCC - Maid - Padded Panty.osd\ArmourVanillaSSEHi</Data>
+            <Data name="BowVanillaSSEHi" target="Bow" local="true">DCC - Maid - Padded Panty.osd\BowVanillaSSEHi</Data>
+            <Data name="LaceVanillaSSEHi" target="Lace" local="true">DCC - Maid - Padded Panty.osd\LaceVanillaSSEHi</Data>
+            <Data name="PantyVanillaSSEHi" target="Panty" local="true">DCC - Maid - Padded Panty.osd\PantyVanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRVanillaSSELo" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRVanillaSSELo</Data>
+            <Data name="ArmourVanillaSSELo" target="Armour" local="true">DCC - Maid - Padded Panty.osd\ArmourVanillaSSELo</Data>
+            <Data name="BowVanillaSSELo" target="Bow" local="true">DCC - Maid - Padded Panty.osd\BowVanillaSSELo</Data>
+            <Data name="LaceVanillaSSELo" target="Lace" local="true">DCC - Maid - Padded Panty.osd\LaceVanillaSSELo</Data>
+            <Data name="PantyVanillaSSELo" target="Panty" local="true">DCC - Maid - Padded Panty.osd\PantyVanillaSSELo</Data>
+        </Slider>
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="BaseShapeHROldBaseShape" target="BaseShapeHR">CBBE Body.osd\BaseShapeHROldBaseShape</Data>
+            <Data name="ArmourOldBaseShape" target="Armour" local="true">DCC - Maid - Padded Panty.osd\ArmourOldBaseShape</Data>
+            <Data name="BowOldBaseShape" target="Bow" local="true">DCC - Maid - Padded Panty.osd\BowOldBaseShape</Data>
+            <Data name="LaceOldBaseShape" target="Lace" local="true">DCC - Maid - Padded Panty.osd\LaceOldBaseShape</Data>
+            <Data name="PantyOldBaseShape" target="Panty" local="true">DCC - Maid - Padded Panty.osd\PantyOldBaseShape</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

@@ -1,0 +1,1015 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="DCC - Maid - Armoured Dress">
+        <DataFolder>DCC - Maid - Armoured Dress</DataFolder>
+        <SourceFile>DCC - Maid - Armoured Dress.nif</SourceFile>
+        <OutputPath>meshes\dcc-maid\dresses</OutputPath>
+        <OutputFile GenWeights="true">dress-warmor</OutputFile>
+        <Shape target="ArmourBreast">ArmourBreast</Shape>
+        <Shape target="ArmourShoulder">ArmourShoulder</Shape>
+        <Shape target="ArmourStrapJunction">ArmourStrapJunction</Shape>
+        <Shape target="ArmourThigh">ArmourThigh</Shape>
+        <Shape target="BaseShapeHR" DataFolder="CBBE">CBBE</Shape>
+        <Shape target="Dress">Dress</Shape>
+        <Shape target="EdgeBreast">EdgeBreast</Shape>
+        <Shape target="EdgeShoulder">EdgeShoulder</Shape>
+        <Shape target="EdgeThigh">EdgeThigh</Shape>
+        <Shape target="LaceDress">LaceDress</Shape>
+        <Shape target="LaceShoulder">LaceShoulder</Shape>
+        <Shape target="PaddingBreast">PaddingBreast</Shape>
+        <Shape target="PaddingShoulder">PaddingShoulder</Shape>
+        <Shape target="PaddingThigh">PaddingThigh</Shape>
+        <Shape target="RivetThigh">RivetThigh</Shape>
+        <Shape target="RivetTorso">RivetTorso</Shape>
+        <Shape target="StockingTops">StockingTops</Shape>
+        <Shape target="Stockings">Stockings</Shape>
+        <Shape target="StrapThigh">StrapThigh</Shape>
+        <Shape target="StrapTorso">StrapTorso</Shape>
+        <Slider name="AnkleSize" invert="false" small="100" big="0">
+            <Data name="BaseShapeHRAnkleSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRAnkleSize</Data>
+            <Data name="StockingsAnkleSize" target="Stockings" local="true">DCC - Maid - Armoured Dress.osd\StockingsAnkleSize</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRAppleCheeks" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRAppleCheeks</Data>
+            <Data name="LaceDressAppleCheeks" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressAppleCheeks</Data>
+            <Data name="DressAppleCheeks" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressAppleCheeks</Data>
+            <Data name="StockingsAppleCheeks" target="Stockings" local="true">DCC - Maid - Armoured Dress.osd\StockingsAppleCheeks</Data>
+            <Data name="RivetThighAppleCheeks" target="RivetThigh" local="true">DCC - Maid - Armoured Dress.osd\RivetThighAppleCheeks</Data>
+            <Data name="ArmourThighAppleCheeks" target="ArmourThigh" local="true">DCC - Maid - Armoured Dress.osd\ArmourThighAppleCheeks</Data>
+            <Data name="StrapThighAppleCheeks" target="StrapThigh" local="true">DCC - Maid - Armoured Dress.osd\StrapThighAppleCheeks</Data>
+            <Data name="PaddingThighAppleCheeks" target="PaddingThigh" local="true">DCC - Maid - Armoured Dress.osd\PaddingThighAppleCheeks</Data>
+            <Data name="StrapTorsoAppleCheeks" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoAppleCheeks</Data>
+            <Data name="ArmourStrapJunctionAppleCheeks" target="ArmourStrapJunction" local="true">DCC - Maid - Armoured Dress.osd\ArmourStrapJunctionAppleCheeks</Data>
+            <Data name="EdgeThighAppleCheeks" target="EdgeThigh" local="true">DCC - Maid - Armoured Dress.osd\EdgeThighAppleCheeks</Data>
+            <Data name="StockingTopsAppleCheeks" target="StockingTops" local="true">DCC - Maid - Armoured Dress.osd\StockingTopsAppleCheeks</Data>
+        </Slider>
+        <Slider name="AreolaSize" invert="false" small="0" big="0" uv="true">
+            <Data name="BaseShapeHRAreolaSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRAreolaSize</Data>
+        </Slider>
+        <Slider name="Arms" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRarms" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRarms</Data>
+            <Data name="LaceDressArms" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressArms</Data>
+            <Data name="DressArms" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressArms</Data>
+            <Data name="RivetTorsoArms" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorsoArms</Data>
+            <Data name="StrapTorsoArms" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoArms</Data>
+            <Data name="ArmourStrapJunctionArms" target="ArmourStrapJunction" local="true">DCC - Maid - Armoured Dress.osd\ArmourStrapJunctionArms</Data>
+            <Data name="PaddingBreastArms" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastArms</Data>
+            <Data name="ArmourBreastArms" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastArms</Data>
+            <Data name="LaceShoulderArms" target="LaceShoulder" local="true">DCC - Maid - Armoured Dress.osd\LaceShoulderArms</Data>
+            <Data name="PaddingShoulderArms" target="PaddingShoulder" local="true">DCC - Maid - Armoured Dress.osd\PaddingShoulderArms</Data>
+            <Data name="EdgeShoulderArms" target="EdgeShoulder" local="true">DCC - Maid - Armoured Dress.osd\EdgeShoulderArms</Data>
+            <Data name="ArmourShoulderArms" target="ArmourShoulder" local="true">DCC - Maid - Armoured Dress.osd\ArmourShoulderArms</Data>
+            <Data name="EdgeBreastArms" target="EdgeBreast" local="true">DCC - Maid - Armoured Dress.osd\EdgeBreastArms</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBack" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBack</Data>
+            <Data name="LaceDressBack" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressBack</Data>
+            <Data name="DressBack" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressBack</Data>
+            <Data name="RivetTorsoBack" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorsoBack</Data>
+            <Data name="StrapTorsoBack" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoBack</Data>
+            <Data name="ArmourStrapJunctionBack" target="ArmourStrapJunction" local="true">DCC - Maid - Armoured Dress.osd\ArmourStrapJunctionBack</Data>
+            <Data name="LaceShoulderBack" target="LaceShoulder" local="true">DCC - Maid - Armoured Dress.osd\LaceShoulderBack</Data>
+            <Data name="PaddingShoulderBack" target="PaddingShoulder" local="true">DCC - Maid - Armoured Dress.osd\PaddingShoulderBack</Data>
+            <Data name="EdgeShoulderBack" target="EdgeShoulder" local="true">DCC - Maid - Armoured Dress.osd\EdgeShoulderBack</Data>
+            <Data name="ArmourShoulderBack" target="ArmourShoulder" local="true">DCC - Maid - Armoured Dress.osd\ArmourShoulderBack</Data>
+        </Slider>
+        <Slider name="BackArch" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBackArch" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBackArch</Data>
+            <Data name="LaceDressBackArch" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressBackArch</Data>
+            <Data name="DressBackArch" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressBackArch</Data>
+            <Data name="StrapTorsoBackArch" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoBackArch</Data>
+            <Data name="ArmourStrapJunctionBackArch" target="ArmourStrapJunction" local="true">DCC - Maid - Armoured Dress.osd\ArmourStrapJunctionBackArch</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBelly" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBelly</Data>
+            <Data name="LaceDressBelly" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressBelly</Data>
+            <Data name="DressBelly" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressBelly</Data>
+            <Data name="RivetTorsoBelly" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorsoBelly</Data>
+            <Data name="StrapTorsoBelly" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoBelly</Data>
+            <Data name="PaddingBreastBelly" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastBelly</Data>
+            <Data name="ArmourBreastBelly" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastBelly</Data>
+            <Data name="EdgeBreastBelly" target="EdgeBreast" local="true">DCC - Maid - Armoured Dress.osd\EdgeBreastBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBigBelly" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBigBelly</Data>
+            <Data name="LaceDressBigBelly" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressBigBelly</Data>
+            <Data name="DressBigBelly" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressBigBelly</Data>
+            <Data name="ArmourThighBigBelly" target="ArmourThigh" local="true">DCC - Maid - Armoured Dress.osd\ArmourThighBigBelly</Data>
+            <Data name="PaddingThighBigBelly" target="PaddingThigh" local="true">DCC - Maid - Armoured Dress.osd\PaddingThighBigBelly</Data>
+            <Data name="StrapTorsoBigBelly" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoBigBelly</Data>
+            <Data name="EdgeThighBigBelly" target="EdgeThigh" local="true">DCC - Maid - Armoured Dress.osd\EdgeThighBigBelly</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBigButt" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBigButt</Data>
+            <Data name="LaceDressBigButt" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressBigButt</Data>
+            <Data name="DressBigButt" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressBigButt</Data>
+            <Data name="StockingsBigButt" target="Stockings" local="true">DCC - Maid - Armoured Dress.osd\StockingsBigButt</Data>
+            <Data name="RivetThighBigButt" target="RivetThigh" local="true">DCC - Maid - Armoured Dress.osd\RivetThighBigButt</Data>
+            <Data name="ArmourThighBigButt" target="ArmourThigh" local="true">DCC - Maid - Armoured Dress.osd\ArmourThighBigButt</Data>
+            <Data name="StrapThighBigButt" target="StrapThigh" local="true">DCC - Maid - Armoured Dress.osd\StrapThighBigButt</Data>
+            <Data name="PaddingThighBigButt" target="PaddingThigh" local="true">DCC - Maid - Armoured Dress.osd\PaddingThighBigButt</Data>
+            <Data name="StrapTorsoBigButt" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoBigButt</Data>
+            <Data name="ArmourStrapJunctionBigButt" target="ArmourStrapJunction" local="true">DCC - Maid - Armoured Dress.osd\ArmourStrapJunctionBigButt</Data>
+            <Data name="EdgeThighBigButt" target="EdgeThigh" local="true">DCC - Maid - Armoured Dress.osd\EdgeThighBigButt</Data>
+            <Data name="StockingTopsBigButt" target="StockingTops" local="true">DCC - Maid - Armoured Dress.osd\StockingTopsBigButt</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBigTorso" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBigTorso</Data>
+            <Data name="LaceDressBigTorso" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressBigTorso</Data>
+            <Data name="DressBigTorso" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressBigTorso</Data>
+            <Data name="ArmourThighBigTorso" target="ArmourThigh" local="true">DCC - Maid - Armoured Dress.osd\ArmourThighBigTorso</Data>
+            <Data name="PaddingThighBigTorso" target="PaddingThigh" local="true">DCC - Maid - Armoured Dress.osd\PaddingThighBigTorso</Data>
+            <Data name="RivetTorsoBigTorso" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorsoBigTorso</Data>
+            <Data name="StrapTorsoBigTorso" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoBigTorso</Data>
+            <Data name="ArmourStrapJunctionBigTorso" target="ArmourStrapJunction" local="true">DCC - Maid - Armoured Dress.osd\ArmourStrapJunctionBigTorso</Data>
+            <Data name="PaddingBreastBigTorso" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastBigTorso</Data>
+            <Data name="ArmourBreastBigTorso" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastBigTorso</Data>
+            <Data name="LaceShoulderBigTorso" target="LaceShoulder" local="true">DCC - Maid - Armoured Dress.osd\LaceShoulderBigTorso</Data>
+            <Data name="PaddingShoulderBigTorso" target="PaddingShoulder" local="true">DCC - Maid - Armoured Dress.osd\PaddingShoulderBigTorso</Data>
+            <Data name="EdgeShoulderBigTorso" target="EdgeShoulder" local="true">DCC - Maid - Armoured Dress.osd\EdgeShoulderBigTorso</Data>
+            <Data name="ArmourShoulderBigTorso" target="ArmourShoulder" local="true">DCC - Maid - Armoured Dress.osd\ArmourShoulderBigTorso</Data>
+            <Data name="EdgeBreastBigTorso" target="EdgeBreast" local="true">DCC - Maid - Armoured Dress.osd\EdgeBreastBigTorso</Data>
+            <Data name="EdgeThighBigTorso" target="EdgeThigh" local="true">DCC - Maid - Armoured Dress.osd\EdgeThighBigTorso</Data>
+        </Slider>
+        <Slider name="BreastCenter" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastCenter" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastCenter</Data>
+            <Data name="LaceDressBreastCenter" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressBreastCenter</Data>
+            <Data name="DressBreastCenter" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressBreastCenter</Data>
+            <Data name="RivetTorsoBreastCenter" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorsoBreastCenter</Data>
+            <Data name="StrapTorsoBreastCenter" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoBreastCenter</Data>
+            <Data name="PaddingBreastBreastCenter" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastBreastCenter</Data>
+            <Data name="ArmourBreastBreastCenter" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastBreastCenter</Data>
+            <Data name="EdgeBreastBreastCenter" target="EdgeBreast" local="true">DCC - Maid - Armoured Dress.osd\EdgeBreastBreastCenter</Data>
+        </Slider>
+        <Slider name="BreastCenterBig" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastCenterBig" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastCenterBig</Data>
+            <Data name="LaceDressBreastCenterBig" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressBreastCenterBig</Data>
+            <Data name="DressBreastCenterBig" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressBreastCenterBig</Data>
+            <Data name="RivetTorsoBreastCenterBig" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorsoBreastCenterBig</Data>
+            <Data name="StrapTorsoBreastCenterBig" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoBreastCenterBig</Data>
+            <Data name="PaddingBreastBreastCenterBig" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastBreastCenterBig</Data>
+            <Data name="ArmourBreastBreastCenterBig" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastBreastCenterBig</Data>
+            <Data name="EdgeBreastBreastCenterBig" target="EdgeBreast" local="true">DCC - Maid - Armoured Dress.osd\EdgeBreastBreastCenterBig</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastCleavage" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastCleavage</Data>
+            <Data name="LaceDressBreastCleavage" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressBreastCleavage</Data>
+            <Data name="DressBreastCleavage" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressBreastCleavage</Data>
+            <Data name="RivetTorsoBreastCleavage" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorsoBreastCleavage</Data>
+            <Data name="StrapTorsoBreastCleavage" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoBreastCleavage</Data>
+            <Data name="PaddingBreastBreastCleavage" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastBreastCleavage</Data>
+            <Data name="ArmourBreastBreastCleavage" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastBreastCleavage</Data>
+            <Data name="EdgeBreastBreastCleavage" target="EdgeBreast" local="true">DCC - Maid - Armoured Dress.osd\EdgeBreastBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastFlatness2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastFlatness2</Data>
+            <Data name="LaceDressBreastFlatness2" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressBreastFlatness2</Data>
+            <Data name="DressBreastFlatness2" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressBreastFlatness2</Data>
+            <Data name="RivetTorsoBreastFlatness2" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorsoBreastFlatness2</Data>
+            <Data name="StrapTorsoBreastFlatness2" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoBreastFlatness2</Data>
+            <Data name="PaddingBreastBreastFlatness2" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastBreastFlatness2</Data>
+            <Data name="ArmourBreastBreastFlatness2" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastBreastFlatness2</Data>
+            <Data name="EdgeBreastBreastFlatness2" target="EdgeBreast" local="true">DCC - Maid - Armoured Dress.osd\EdgeBreastBreastFlatness2</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastFlattness" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastFlattness</Data>
+            <Data name="LaceDressBreastFlatness" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressBreastFlatness</Data>
+            <Data name="DressBreastFlatness" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressBreastFlatness</Data>
+            <Data name="RivetTorsoBreastFlatness" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorsoBreastFlatness</Data>
+            <Data name="StrapTorsoBreastFlatness" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoBreastFlatness</Data>
+            <Data name="PaddingBreastBreastFlatness" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastBreastFlatness</Data>
+            <Data name="ArmourBreastBreastFlatness" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastBreastFlatness</Data>
+            <Data name="EdgeBreastBreastFlatness" target="EdgeBreast" local="true">DCC - Maid - Armoured Dress.osd\EdgeBreastBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastGravity2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastGravity2</Data>
+            <Data name="LaceDressBreastGravity2" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressBreastGravity2</Data>
+            <Data name="DressBreastGravity2" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressBreastGravity2</Data>
+            <Data name="RivetTorsoBreastGravity2" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorsoBreastGravity2</Data>
+            <Data name="StrapTorsoBreastGravity2" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoBreastGravity2</Data>
+            <Data name="PaddingBreastBreastGravity2" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastBreastGravity2</Data>
+            <Data name="ArmourBreastBreastGravity2" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastBreastGravity2</Data>
+            <Data name="LaceShoulderBreastGravity2" target="LaceShoulder" local="true">DCC - Maid - Armoured Dress.osd\LaceShoulderBreastGravity2</Data>
+            <Data name="PaddingShoulderBreastGravity2" target="PaddingShoulder" local="true">DCC - Maid - Armoured Dress.osd\PaddingShoulderBreastGravity2</Data>
+            <Data name="EdgeShoulderBreastGravity2" target="EdgeShoulder" local="true">DCC - Maid - Armoured Dress.osd\EdgeShoulderBreastGravity2</Data>
+            <Data name="ArmourShoulderBreastGravity2" target="ArmourShoulder" local="true">DCC - Maid - Armoured Dress.osd\ArmourShoulderBreastGravity2</Data>
+            <Data name="EdgeBreastBreastGravity2" target="EdgeBreast" local="true">DCC - Maid - Armoured Dress.osd\EdgeBreastBreastGravity2</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastHeight" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastHeight</Data>
+            <Data name="LaceDressBreastHeight" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressBreastHeight</Data>
+            <Data name="DressBreastHeight" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressBreastHeight</Data>
+            <Data name="RivetTorsoBreastHeight" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorsoBreastHeight</Data>
+            <Data name="StrapTorsoBreastHeight" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoBreastHeight</Data>
+            <Data name="PaddingBreastBreastHeight" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastBreastHeight</Data>
+            <Data name="ArmourBreastBreastHeight" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastBreastHeight</Data>
+            <Data name="LaceShoulderBreastHeight" target="LaceShoulder" local="true">DCC - Maid - Armoured Dress.osd\LaceShoulderBreastHeight</Data>
+            <Data name="PaddingShoulderBreastHeight" target="PaddingShoulder" local="true">DCC - Maid - Armoured Dress.osd\PaddingShoulderBreastHeight</Data>
+            <Data name="EdgeShoulderBreastHeight" target="EdgeShoulder" local="true">DCC - Maid - Armoured Dress.osd\EdgeShoulderBreastHeight</Data>
+            <Data name="ArmourShoulderBreastHeight" target="ArmourShoulder" local="true">DCC - Maid - Armoured Dress.osd\ArmourShoulderBreastHeight</Data>
+            <Data name="EdgeBreastBreastHeight" target="EdgeBreast" local="true">DCC - Maid - Armoured Dress.osd\EdgeBreastBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastPerkiness" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastPerkiness</Data>
+            <Data name="LaceDressBreastPerkiness" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressBreastPerkiness</Data>
+            <Data name="DressBreastPerkiness" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressBreastPerkiness</Data>
+            <Data name="RivetTorsoBreastPerkiness" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorsoBreastPerkiness</Data>
+            <Data name="StrapTorsoBreastPerkiness" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoBreastPerkiness</Data>
+            <Data name="PaddingBreastBreastPerkiness" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastBreastPerkiness</Data>
+            <Data name="ArmourBreastBreastPerkiness" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastBreastPerkiness</Data>
+            <Data name="EdgeBreastBreastPerkiness" target="EdgeBreast" local="true">DCC - Maid - Armoured Dress.osd\EdgeBreastBreastPerkiness</Data>
+        </Slider>
+        <Slider name="Breasts" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreasts" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreasts</Data>
+            <Data name="LaceDressBreasts" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressBreasts</Data>
+            <Data name="DressBreasts" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressBreasts</Data>
+            <Data name="RivetTorsoBreasts" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorsoBreasts</Data>
+            <Data name="StrapTorsoBreasts" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoBreasts</Data>
+            <Data name="PaddingBreastBreasts" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastBreasts</Data>
+            <Data name="ArmourBreastBreasts" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastBreasts</Data>
+            <Data name="EdgeBreastBreasts" target="EdgeBreast" local="true">DCC - Maid - Armoured Dress.osd\EdgeBreastBreasts</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsFantasy" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsFantasy</Data>
+            <Data name="LaceDressBreastsFantasy" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressBreastsFantasy</Data>
+            <Data name="DressBreastsFantasy" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressBreastsFantasy</Data>
+            <Data name="RivetTorsoBreastsFantasy" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorsoBreastsFantasy</Data>
+            <Data name="StrapTorsoBreastsFantasy" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoBreastsFantasy</Data>
+            <Data name="PaddingBreastBreastsFantasy" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastBreastsFantasy</Data>
+            <Data name="ArmourBreastBreastsFantasy" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastBreastsFantasy</Data>
+            <Data name="EdgeBreastBreastsFantasy" target="EdgeBreast" local="true">DCC - Maid - Armoured Dress.osd\EdgeBreastBreastsFantasy</Data>
+        </Slider>
+        <Slider name="BreastsGone" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsGone" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsGone</Data>
+            <Data name="LaceDressBreastsGone" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressBreastsGone</Data>
+            <Data name="DressBreastsGone" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressBreastsGone</Data>
+            <Data name="RivetTorsoBreastsGone" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorsoBreastsGone</Data>
+            <Data name="StrapTorsoBreastsGone" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoBreastsGone</Data>
+            <Data name="PaddingBreastBreastsGone" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastBreastsGone</Data>
+            <Data name="ArmourBreastBreastsGone" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastBreastsGone</Data>
+            <Data name="LaceShoulderBreastsGone" target="LaceShoulder" local="true">DCC - Maid - Armoured Dress.osd\LaceShoulderBreastsGone</Data>
+            <Data name="PaddingShoulderBreastsGone" target="PaddingShoulder" local="true">DCC - Maid - Armoured Dress.osd\PaddingShoulderBreastsGone</Data>
+            <Data name="EdgeBreastBreastsGone" target="EdgeBreast" local="true">DCC - Maid - Armoured Dress.osd\EdgeBreastBreastsGone</Data>
+        </Slider>
+        <Slider name="BreastsNewSH" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsNewSH" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsNewSH</Data>
+            <Data name="LaceDressBreastsNewSH" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressBreastsNewSH</Data>
+            <Data name="DressBreastsNewSH" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressBreastsNewSH</Data>
+            <Data name="RivetTorsoBreastsNewSH" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorsoBreastsNewSH</Data>
+            <Data name="StrapTorsoBreastsNewSH" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoBreastsNewSH</Data>
+            <Data name="PaddingBreastBreastsNewSH" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastBreastsNewSH</Data>
+            <Data name="ArmourBreastBreastsNewSH" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastBreastsNewSH</Data>
+            <Data name="LaceShoulderBreastsNewSH" target="LaceShoulder" local="true">DCC - Maid - Armoured Dress.osd\LaceShoulderBreastsNewSH</Data>
+            <Data name="PaddingShoulderBreastsNewSH" target="PaddingShoulder" local="true">DCC - Maid - Armoured Dress.osd\PaddingShoulderBreastsNewSH</Data>
+            <Data name="EdgeShoulderBreastsNewSH" target="EdgeShoulder" local="true">DCC - Maid - Armoured Dress.osd\EdgeShoulderBreastsNewSH</Data>
+            <Data name="ArmourShoulderBreastsNewSH" target="ArmourShoulder" local="true">DCC - Maid - Armoured Dress.osd\ArmourShoulderBreastsNewSH</Data>
+            <Data name="EdgeBreastBreastsNewSH" target="EdgeBreast" local="true">DCC - Maid - Armoured Dress.osd\EdgeBreastBreastsNewSH</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsSmall" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsSmall</Data>
+            <Data name="LaceDressBreastsSmall" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressBreastsSmall</Data>
+            <Data name="DressBreastsSmall" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressBreastsSmall</Data>
+            <Data name="RivetTorsoBreastsSmall" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorsoBreastsSmall</Data>
+            <Data name="StrapTorsoBreastsSmall" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoBreastsSmall</Data>
+            <Data name="PaddingBreastBreastsSmall" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastBreastsSmall</Data>
+            <Data name="ArmourBreastBreastsSmall" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastBreastsSmall</Data>
+            <Data name="LaceShoulderBreastsSmall" target="LaceShoulder" local="true">DCC - Maid - Armoured Dress.osd\LaceShoulderBreastsSmall</Data>
+            <Data name="PaddingShoulderBreastsSmall" target="PaddingShoulder" local="true">DCC - Maid - Armoured Dress.osd\PaddingShoulderBreastsSmall</Data>
+            <Data name="EdgeShoulderBreastsSmall" target="EdgeShoulder" local="true">DCC - Maid - Armoured Dress.osd\EdgeShoulderBreastsSmall</Data>
+            <Data name="ArmourShoulderBreastsSmall" target="ArmourShoulder" local="true">DCC - Maid - Armoured Dress.osd\ArmourShoulderBreastsSmall</Data>
+            <Data name="EdgeBreastBreastsSmall" target="EdgeBreast" local="true">DCC - Maid - Armoured Dress.osd\EdgeBreastBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSmall2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsSmall2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsSmall2</Data>
+            <Data name="LaceDressBreastsSmall2" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressBreastsSmall2</Data>
+            <Data name="DressBreastsSmall2" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressBreastsSmall2</Data>
+            <Data name="RivetTorsoBreastsSmall2" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorsoBreastsSmall2</Data>
+            <Data name="StrapTorsoBreastsSmall2" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoBreastsSmall2</Data>
+            <Data name="PaddingBreastBreastsSmall2" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastBreastsSmall2</Data>
+            <Data name="ArmourBreastBreastsSmall2" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastBreastsSmall2</Data>
+            <Data name="LaceShoulderBreastsSmall2" target="LaceShoulder" local="true">DCC - Maid - Armoured Dress.osd\LaceShoulderBreastsSmall2</Data>
+            <Data name="PaddingShoulderBreastsSmall2" target="PaddingShoulder" local="true">DCC - Maid - Armoured Dress.osd\PaddingShoulderBreastsSmall2</Data>
+            <Data name="EdgeShoulderBreastsSmall2" target="EdgeShoulder" local="true">DCC - Maid - Armoured Dress.osd\EdgeShoulderBreastsSmall2</Data>
+            <Data name="ArmourShoulderBreastsSmall2" target="ArmourShoulder" local="true">DCC - Maid - Armoured Dress.osd\ArmourShoulderBreastsSmall2</Data>
+            <Data name="EdgeBreastBreastsSmall2" target="EdgeBreast" local="true">DCC - Maid - Armoured Dress.osd\EdgeBreastBreastsSmall2</Data>
+        </Slider>
+        <Slider name="BreastsTogether" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsTogether" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsTogether</Data>
+            <Data name="LaceDressBreastsTogether" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressBreastsTogether</Data>
+            <Data name="DressBreastsTogether" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressBreastsTogether</Data>
+            <Data name="RivetTorsoBreastsTogether" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorsoBreastsTogether</Data>
+            <Data name="StrapTorsoBreastsTogether" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoBreastsTogether</Data>
+            <Data name="PaddingBreastBreastsTogether" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastBreastsTogether</Data>
+            <Data name="ArmourBreastBreastsTogether" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastBreastsTogether</Data>
+            <Data name="LaceShoulderBreastsTogether" target="LaceShoulder" local="true">DCC - Maid - Armoured Dress.osd\LaceShoulderBreastsTogether</Data>
+            <Data name="PaddingShoulderBreastsTogether" target="PaddingShoulder" local="true">DCC - Maid - Armoured Dress.osd\PaddingShoulderBreastsTogether</Data>
+            <Data name="EdgeBreastBreastsTogether" target="EdgeBreast" local="true">DCC - Maid - Armoured Dress.osd\EdgeBreastBreastsTogether</Data>
+        </Slider>
+        <Slider name="BreastTopSlope" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastTopSlope" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastTopSlope</Data>
+            <Data name="LaceDressBreastTopSlope" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressBreastTopSlope</Data>
+            <Data name="DressBreastTopSlope" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressBreastTopSlope</Data>
+            <Data name="RivetTorsoBreastTopSlope" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorsoBreastTopSlope</Data>
+            <Data name="StrapTorsoBreastTopSlope" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoBreastTopSlope</Data>
+            <Data name="PaddingBreastBreastTopSlope" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastBreastTopSlope</Data>
+            <Data name="ArmourBreastBreastTopSlope" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastBreastTopSlope</Data>
+            <Data name="EdgeBreastBreastTopSlope" target="EdgeBreast" local="true">DCC - Maid - Armoured Dress.osd\EdgeBreastBreastTopSlope</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastWidth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastWidth</Data>
+            <Data name="LaceDressBreastWidth" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressBreastWidth</Data>
+            <Data name="DressBreastWidth" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressBreastWidth</Data>
+            <Data name="RivetTorsoBreastWidth" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorsoBreastWidth</Data>
+            <Data name="StrapTorsoBreastWidth" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoBreastWidth</Data>
+            <Data name="PaddingBreastBreastWidth" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastBreastWidth</Data>
+            <Data name="ArmourBreastBreastWidth" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastBreastWidth</Data>
+            <Data name="EdgeBreastBreastWidth" target="EdgeBreast" local="true">DCC - Maid - Armoured Dress.osd\EdgeBreastBreastWidth</Data>
+        </Slider>
+        <Slider name="Butt" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButt" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButt</Data>
+            <Data name="LaceDressButt" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressButt</Data>
+            <Data name="DressButt" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressButt</Data>
+            <Data name="StockingsButt" target="Stockings" local="true">DCC - Maid - Armoured Dress.osd\StockingsButt</Data>
+            <Data name="RivetThighButt" target="RivetThigh" local="true">DCC - Maid - Armoured Dress.osd\RivetThighButt</Data>
+            <Data name="ArmourThighButt" target="ArmourThigh" local="true">DCC - Maid - Armoured Dress.osd\ArmourThighButt</Data>
+            <Data name="StrapThighButt" target="StrapThigh" local="true">DCC - Maid - Armoured Dress.osd\StrapThighButt</Data>
+            <Data name="PaddingThighButt" target="PaddingThigh" local="true">DCC - Maid - Armoured Dress.osd\PaddingThighButt</Data>
+            <Data name="StrapTorsoButt" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoButt</Data>
+            <Data name="ArmourStrapJunctionButt" target="ArmourStrapJunction" local="true">DCC - Maid - Armoured Dress.osd\ArmourStrapJunctionButt</Data>
+            <Data name="EdgeThighButt" target="EdgeThigh" local="true">DCC - Maid - Armoured Dress.osd\EdgeThighButt</Data>
+            <Data name="StockingTopsButt" target="StockingTops" local="true">DCC - Maid - Armoured Dress.osd\StockingTopsButt</Data>
+        </Slider>
+        <Slider name="ButtClassic" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtClassic" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtClassic</Data>
+            <Data name="LaceDressButtClassic" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressButtClassic</Data>
+            <Data name="DressButtClassic" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressButtClassic</Data>
+            <Data name="StockingsButtClassic" target="Stockings" local="true">DCC - Maid - Armoured Dress.osd\StockingsButtClassic</Data>
+            <Data name="RivetThighButtClassic" target="RivetThigh" local="true">DCC - Maid - Armoured Dress.osd\RivetThighButtClassic</Data>
+            <Data name="ArmourThighButtClassic" target="ArmourThigh" local="true">DCC - Maid - Armoured Dress.osd\ArmourThighButtClassic</Data>
+            <Data name="StrapThighButtClassic" target="StrapThigh" local="true">DCC - Maid - Armoured Dress.osd\StrapThighButtClassic</Data>
+            <Data name="PaddingThighButtClassic" target="PaddingThigh" local="true">DCC - Maid - Armoured Dress.osd\PaddingThighButtClassic</Data>
+            <Data name="StrapTorsoButtClassic" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoButtClassic</Data>
+            <Data name="ArmourStrapJunctionButtClassic" target="ArmourStrapJunction" local="true">DCC - Maid - Armoured Dress.osd\ArmourStrapJunctionButtClassic</Data>
+            <Data name="EdgeThighButtClassic" target="EdgeThigh" local="true">DCC - Maid - Armoured Dress.osd\EdgeThighButtClassic</Data>
+            <Data name="StockingTopsButtClassic" target="StockingTops" local="true">DCC - Maid - Armoured Dress.osd\StockingTopsButtClassic</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtCrack" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtCrack</Data>
+            <Data name="LaceDressButtCrack" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressButtCrack</Data>
+            <Data name="DressButtCrack" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressButtCrack</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtShape2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtShape2</Data>
+            <Data name="LaceDressButtShape2" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressButtShape2</Data>
+            <Data name="DressButtShape2" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressButtShape2</Data>
+            <Data name="StockingsButtShape2" target="Stockings" local="true">DCC - Maid - Armoured Dress.osd\StockingsButtShape2</Data>
+            <Data name="RivetThighButtShape2" target="RivetThigh" local="true">DCC - Maid - Armoured Dress.osd\RivetThighButtShape2</Data>
+            <Data name="ArmourThighButtShape2" target="ArmourThigh" local="true">DCC - Maid - Armoured Dress.osd\ArmourThighButtShape2</Data>
+            <Data name="StrapThighButtShape2" target="StrapThigh" local="true">DCC - Maid - Armoured Dress.osd\StrapThighButtShape2</Data>
+            <Data name="PaddingThighButtShape2" target="PaddingThigh" local="true">DCC - Maid - Armoured Dress.osd\PaddingThighButtShape2</Data>
+            <Data name="StrapTorsoButtShape2" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoButtShape2</Data>
+            <Data name="ArmourStrapJunctionButtShape2" target="ArmourStrapJunction" local="true">DCC - Maid - Armoured Dress.osd\ArmourStrapJunctionButtShape2</Data>
+            <Data name="EdgeThighButtShape2" target="EdgeThigh" local="true">DCC - Maid - Armoured Dress.osd\EdgeThighButtShape2</Data>
+            <Data name="StockingTopsButtShape2" target="StockingTops" local="true">DCC - Maid - Armoured Dress.osd\StockingTopsButtShape2</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtSmall" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtSmall</Data>
+            <Data name="LaceDressButtSmall" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressButtSmall</Data>
+            <Data name="DressButtSmall" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressButtSmall</Data>
+            <Data name="StockingsButtSmall" target="Stockings" local="true">DCC - Maid - Armoured Dress.osd\StockingsButtSmall</Data>
+            <Data name="RivetThighButtSmall" target="RivetThigh" local="true">DCC - Maid - Armoured Dress.osd\RivetThighButtSmall</Data>
+            <Data name="ArmourThighButtSmall" target="ArmourThigh" local="true">DCC - Maid - Armoured Dress.osd\ArmourThighButtSmall</Data>
+            <Data name="StrapThighButtSmall" target="StrapThigh" local="true">DCC - Maid - Armoured Dress.osd\StrapThighButtSmall</Data>
+            <Data name="PaddingThighButtSmall" target="PaddingThigh" local="true">DCC - Maid - Armoured Dress.osd\PaddingThighButtSmall</Data>
+            <Data name="StrapTorsoButtSmall" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoButtSmall</Data>
+            <Data name="EdgeThighButtSmall" target="EdgeThigh" local="true">DCC - Maid - Armoured Dress.osd\EdgeThighButtSmall</Data>
+            <Data name="StockingTopsButtSmall" target="StockingTops" local="true">DCC - Maid - Armoured Dress.osd\StockingTopsButtSmall</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCalfSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRCalfSize</Data>
+            <Data name="StockingsCalfSize" target="Stockings" local="true">DCC - Maid - Armoured Dress.osd\StockingsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCalfSmooth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRCalfSmooth</Data>
+            <Data name="StockingsCalfSmooth" target="Stockings" local="true">DCC - Maid - Armoured Dress.osd\StockingsCalfSmooth</Data>
+        </Slider>
+        <Slider name="ChestDepth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChestDepth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChestDepth</Data>
+            <Data name="LaceDressChestDepth" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressChestDepth</Data>
+            <Data name="DressChestDepth" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressChestDepth</Data>
+            <Data name="RivetTorsoChestDepth" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorsoChestDepth</Data>
+            <Data name="StrapTorsoChestDepth" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoChestDepth</Data>
+            <Data name="PaddingBreastChestDepth" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastChestDepth</Data>
+            <Data name="ArmourBreastChestDepth" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastChestDepth</Data>
+            <Data name="LaceShoulderChestDepth" target="LaceShoulder" local="true">DCC - Maid - Armoured Dress.osd\LaceShoulderChestDepth</Data>
+            <Data name="PaddingShoulderChestDepth" target="PaddingShoulder" local="true">DCC - Maid - Armoured Dress.osd\PaddingShoulderChestDepth</Data>
+            <Data name="EdgeShoulderChestDepth" target="EdgeShoulder" local="true">DCC - Maid - Armoured Dress.osd\EdgeShoulderChestDepth</Data>
+            <Data name="ArmourShoulderChestDepth" target="ArmourShoulder" local="true">DCC - Maid - Armoured Dress.osd\ArmourShoulderChestDepth</Data>
+            <Data name="EdgeBreastChestDepth" target="EdgeBreast" local="true">DCC - Maid - Armoured Dress.osd\EdgeBreastChestDepth</Data>
+        </Slider>
+        <Slider name="ChestWidth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChestWidth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChestWidth</Data>
+            <Data name="LaceDressChestWidth" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressChestWidth</Data>
+            <Data name="DressChestWidth" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressChestWidth</Data>
+            <Data name="RivetTorsoChestWidth" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorsoChestWidth</Data>
+            <Data name="StrapTorsoChestWidth" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoChestWidth</Data>
+            <Data name="ArmourStrapJunctionChestWidth" target="ArmourStrapJunction" local="true">DCC - Maid - Armoured Dress.osd\ArmourStrapJunctionChestWidth</Data>
+            <Data name="PaddingBreastChestWidth" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastChestWidth</Data>
+            <Data name="ArmourBreastChestWidth" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastChestWidth</Data>
+            <Data name="LaceShoulderChestWidth" target="LaceShoulder" local="true">DCC - Maid - Armoured Dress.osd\LaceShoulderChestWidth</Data>
+            <Data name="PaddingShoulderChestWidth" target="PaddingShoulder" local="true">DCC - Maid - Armoured Dress.osd\PaddingShoulderChestWidth</Data>
+            <Data name="EdgeShoulderChestWidth" target="EdgeShoulder" local="true">DCC - Maid - Armoured Dress.osd\EdgeShoulderChestWidth</Data>
+            <Data name="ArmourShoulderChestWidth" target="ArmourShoulder" local="true">DCC - Maid - Armoured Dress.osd\ArmourShoulderChestWidth</Data>
+            <Data name="EdgeBreastChestWidth" target="EdgeBreast" local="true">DCC - Maid - Armoured Dress.osd\EdgeBreastChestWidth</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChubbyArms" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChubbyArms</Data>
+            <Data name="LaceDressChubbyArms" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressChubbyArms</Data>
+            <Data name="DressChubbyArms" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressChubbyArms</Data>
+            <Data name="RivetTorsoChubbyArms" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorsoChubbyArms</Data>
+            <Data name="StrapTorsoChubbyArms" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoChubbyArms</Data>
+            <Data name="PaddingBreastChubbyArms" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastChubbyArms</Data>
+            <Data name="ArmourBreastChubbyArms" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastChubbyArms</Data>
+            <Data name="LaceShoulderChubbyArms" target="LaceShoulder" local="true">DCC - Maid - Armoured Dress.osd\LaceShoulderChubbyArms</Data>
+            <Data name="PaddingShoulderChubbyArms" target="PaddingShoulder" local="true">DCC - Maid - Armoured Dress.osd\PaddingShoulderChubbyArms</Data>
+            <Data name="EdgeShoulderChubbyArms" target="EdgeShoulder" local="true">DCC - Maid - Armoured Dress.osd\EdgeShoulderChubbyArms</Data>
+            <Data name="ArmourShoulderChubbyArms" target="ArmourShoulder" local="true">DCC - Maid - Armoured Dress.osd\ArmourShoulderChubbyArms</Data>
+            <Data name="EdgeBreastChubbyArms" target="EdgeBreast" local="true">DCC - Maid - Armoured Dress.osd\EdgeBreastChubbyArms</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChubbyButt" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChubbyButt</Data>
+            <Data name="LaceDressChubbyButt" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressChubbyButt</Data>
+            <Data name="DressChubbyButt" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressChubbyButt</Data>
+            <Data name="StockingsChubbyButt" target="Stockings" local="true">DCC - Maid - Armoured Dress.osd\StockingsChubbyButt</Data>
+            <Data name="RivetThighChubbyButt" target="RivetThigh" local="true">DCC - Maid - Armoured Dress.osd\RivetThighChubbyButt</Data>
+            <Data name="ArmourThighChubbyButt" target="ArmourThigh" local="true">DCC - Maid - Armoured Dress.osd\ArmourThighChubbyButt</Data>
+            <Data name="StrapThighChubbyButt" target="StrapThigh" local="true">DCC - Maid - Armoured Dress.osd\StrapThighChubbyButt</Data>
+            <Data name="PaddingThighChubbyButt" target="PaddingThigh" local="true">DCC - Maid - Armoured Dress.osd\PaddingThighChubbyButt</Data>
+            <Data name="StrapTorsoChubbyButt" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoChubbyButt</Data>
+            <Data name="ArmourStrapJunctionChubbyButt" target="ArmourStrapJunction" local="true">DCC - Maid - Armoured Dress.osd\ArmourStrapJunctionChubbyButt</Data>
+            <Data name="EdgeThighChubbyButt" target="EdgeThigh" local="true">DCC - Maid - Armoured Dress.osd\EdgeThighChubbyButt</Data>
+            <Data name="StockingTopsChubbyButt" target="StockingTops" local="true">DCC - Maid - Armoured Dress.osd\StockingTopsChubbyButt</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChubbyLegs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChubbyLegs</Data>
+            <Data name="LaceDressChubbyLegs" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressChubbyLegs</Data>
+            <Data name="DressChubbyLegs" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressChubbyLegs</Data>
+            <Data name="StockingsChubbyLegs" target="Stockings" local="true">DCC - Maid - Armoured Dress.osd\StockingsChubbyLegs</Data>
+            <Data name="RivetThighChubbyLegs" target="RivetThigh" local="true">DCC - Maid - Armoured Dress.osd\RivetThighChubbyLegs</Data>
+            <Data name="ArmourThighChubbyLegs" target="ArmourThigh" local="true">DCC - Maid - Armoured Dress.osd\ArmourThighChubbyLegs</Data>
+            <Data name="StrapThighChubbyLegs" target="StrapThigh" local="true">DCC - Maid - Armoured Dress.osd\StrapThighChubbyLegs</Data>
+            <Data name="PaddingThighChubbyLegs" target="PaddingThigh" local="true">DCC - Maid - Armoured Dress.osd\PaddingThighChubbyLegs</Data>
+            <Data name="EdgeThighChubbyLegs" target="EdgeThigh" local="true">DCC - Maid - Armoured Dress.osd\EdgeThighChubbyLegs</Data>
+            <Data name="StockingTopsChubbyLegs" target="StockingTops" local="true">DCC - Maid - Armoured Dress.osd\StockingTopsChubbyLegs</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChubbyWaist" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChubbyWaist</Data>
+            <Data name="LaceDressChubbyWaist" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressChubbyWaist</Data>
+            <Data name="DressChubbyWaist" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressChubbyWaist</Data>
+            <Data name="RivetThighChubbyWaist" target="RivetThigh" local="true">DCC - Maid - Armoured Dress.osd\RivetThighChubbyWaist</Data>
+            <Data name="ArmourThighChubbyWaist" target="ArmourThigh" local="true">DCC - Maid - Armoured Dress.osd\ArmourThighChubbyWaist</Data>
+            <Data name="StrapThighChubbyWaist" target="StrapThigh" local="true">DCC - Maid - Armoured Dress.osd\StrapThighChubbyWaist</Data>
+            <Data name="PaddingThighChubbyWaist" target="PaddingThigh" local="true">DCC - Maid - Armoured Dress.osd\PaddingThighChubbyWaist</Data>
+            <Data name="StrapTorsoChubbyWaist" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoChubbyWaist</Data>
+            <Data name="ArmourStrapJunctionChubbyWaist" target="ArmourStrapJunction" local="true">DCC - Maid - Armoured Dress.osd\ArmourStrapJunctionChubbyWaist</Data>
+            <Data name="EdgeThighChubbyWaist" target="EdgeThigh" local="true">DCC - Maid - Armoured Dress.osd\EdgeThighChubbyWaist</Data>
+        </Slider>
+        <Slider name="CrotchBack" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCrotchBack" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRCrotchBack</Data>
+            <Data name="LaceDressCrotchBack" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressCrotchBack</Data>
+            <Data name="DressCrotchBack" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressCrotchBack</Data>
+            <Data name="StockingsCrotchBack" target="Stockings" local="true">DCC - Maid - Armoured Dress.osd\StockingsCrotchBack</Data>
+            <Data name="RivetThighCrotchBack" target="RivetThigh" local="true">DCC - Maid - Armoured Dress.osd\RivetThighCrotchBack</Data>
+            <Data name="ArmourThighCrotchBack" target="ArmourThigh" local="true">DCC - Maid - Armoured Dress.osd\ArmourThighCrotchBack</Data>
+            <Data name="StrapThighCrotchBack" target="StrapThigh" local="true">DCC - Maid - Armoured Dress.osd\StrapThighCrotchBack</Data>
+            <Data name="PaddingThighCrotchBack" target="PaddingThigh" local="true">DCC - Maid - Armoured Dress.osd\PaddingThighCrotchBack</Data>
+            <Data name="EdgeThighCrotchBack" target="EdgeThigh" local="true">DCC - Maid - Armoured Dress.osd\EdgeThighCrotchBack</Data>
+            <Data name="StockingTopsCrotchBack" target="StockingTops" local="true">DCC - Maid - Armoured Dress.osd\StockingTopsCrotchBack</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRDoubleMelon" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRDoubleMelon</Data>
+            <Data name="LaceDressDoubleMelon" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressDoubleMelon</Data>
+            <Data name="DressDoubleMelon" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressDoubleMelon</Data>
+            <Data name="RivetTorsoDoubleMelon" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorsoDoubleMelon</Data>
+            <Data name="StrapTorsoDoubleMelon" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoDoubleMelon</Data>
+            <Data name="PaddingBreastDoubleMelon" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastDoubleMelon</Data>
+            <Data name="ArmourBreastDoubleMelon" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastDoubleMelon</Data>
+            <Data name="EdgeBreastDoubleMelon" target="EdgeBreast" local="true">DCC - Maid - Armoured Dress.osd\EdgeBreastDoubleMelon</Data>
+        </Slider>
+        <Slider name="ForearmSize" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRForearmSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRForearmSize</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRGroin" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRGroin</Data>
+            <Data name="LaceDressGroin" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressGroin</Data>
+            <Data name="DressGroin" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressGroin</Data>
+            <Data name="StrapThighGroin" target="StrapThigh" local="true">DCC - Maid - Armoured Dress.osd\StrapThighGroin</Data>
+            <Data name="StockingTopsGroin" target="StockingTops" local="true">DCC - Maid - Armoured Dress.osd\StockingTopsGroin</Data>
+        </Slider>
+        <Slider name="HipBone" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHipbone" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHipbone</Data>
+            <Data name="LaceDressHipBone" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressHipBone</Data>
+            <Data name="DressHipBone" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressHipBone</Data>
+            <Data name="StockingsHipBone" target="Stockings" local="true">DCC - Maid - Armoured Dress.osd\StockingsHipBone</Data>
+            <Data name="RivetThighHipBone" target="RivetThigh" local="true">DCC - Maid - Armoured Dress.osd\RivetThighHipBone</Data>
+            <Data name="ArmourThighHipBone" target="ArmourThigh" local="true">DCC - Maid - Armoured Dress.osd\ArmourThighHipBone</Data>
+            <Data name="StrapThighHipBone" target="StrapThigh" local="true">DCC - Maid - Armoured Dress.osd\StrapThighHipBone</Data>
+            <Data name="PaddingThighHipBone" target="PaddingThigh" local="true">DCC - Maid - Armoured Dress.osd\PaddingThighHipBone</Data>
+            <Data name="EdgeThighHipBone" target="EdgeThigh" local="true">DCC - Maid - Armoured Dress.osd\EdgeThighHipBone</Data>
+            <Data name="StockingTopsHipBone" target="StockingTops" local="true">DCC - Maid - Armoured Dress.osd\StockingTopsHipBone</Data>
+        </Slider>
+        <Slider name="HipForward" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHipForward" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHipForward</Data>
+            <Data name="LaceDressHipForward" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressHipForward</Data>
+            <Data name="DressHipForward" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressHipForward</Data>
+            <Data name="StockingsHipForward" target="Stockings" local="true">DCC - Maid - Armoured Dress.osd\StockingsHipForward</Data>
+            <Data name="RivetThighHipForward" target="RivetThigh" local="true">DCC - Maid - Armoured Dress.osd\RivetThighHipForward</Data>
+            <Data name="ArmourThighHipForward" target="ArmourThigh" local="true">DCC - Maid - Armoured Dress.osd\ArmourThighHipForward</Data>
+            <Data name="StrapThighHipForward" target="StrapThigh" local="true">DCC - Maid - Armoured Dress.osd\StrapThighHipForward</Data>
+            <Data name="PaddingThighHipForward" target="PaddingThigh" local="true">DCC - Maid - Armoured Dress.osd\PaddingThighHipForward</Data>
+            <Data name="RivetTorsoHipForward" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorsoHipForward</Data>
+            <Data name="StrapTorsoHipForward" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoHipForward</Data>
+            <Data name="ArmourStrapJunctionHipForward" target="ArmourStrapJunction" local="true">DCC - Maid - Armoured Dress.osd\ArmourStrapJunctionHipForward</Data>
+            <Data name="PaddingBreastHipForward" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastHipForward</Data>
+            <Data name="ArmourBreastHipForward" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastHipForward</Data>
+            <Data name="EdgeBreastHipForward" target="EdgeBreast" local="true">DCC - Maid - Armoured Dress.osd\EdgeBreastHipForward</Data>
+            <Data name="EdgeThighHipForward" target="EdgeThigh" local="true">DCC - Maid - Armoured Dress.osd\EdgeThighHipForward</Data>
+            <Data name="StockingTopsHipForward" target="StockingTops" local="true">DCC - Maid - Armoured Dress.osd\StockingTopsHipForward</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHips" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHips</Data>
+            <Data name="LaceDressHips" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressHips</Data>
+            <Data name="DressHips" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressHips</Data>
+            <Data name="StockingsHips" target="Stockings" local="true">DCC - Maid - Armoured Dress.osd\StockingsHips</Data>
+            <Data name="RivetThighHips" target="RivetThigh" local="true">DCC - Maid - Armoured Dress.osd\RivetThighHips</Data>
+            <Data name="ArmourThighHips" target="ArmourThigh" local="true">DCC - Maid - Armoured Dress.osd\ArmourThighHips</Data>
+            <Data name="StrapThighHips" target="StrapThigh" local="true">DCC - Maid - Armoured Dress.osd\StrapThighHips</Data>
+            <Data name="PaddingThighHips" target="PaddingThigh" local="true">DCC - Maid - Armoured Dress.osd\PaddingThighHips</Data>
+            <Data name="StrapTorsoHips" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoHips</Data>
+            <Data name="EdgeThighHips" target="EdgeThigh" local="true">DCC - Maid - Armoured Dress.osd\EdgeThighHips</Data>
+            <Data name="StockingTopsHips" target="StockingTops" local="true">DCC - Maid - Armoured Dress.osd\StockingTopsHips</Data>
+        </Slider>
+        <Slider name="HipUpperWidth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHipUpperWidth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHipUpperWidth</Data>
+            <Data name="DressHipUpperWidth" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressHipUpperWidth</Data>
+            <Data name="PaddingThighHipUpperWidth" target="PaddingThigh" local="true">DCC - Maid - Armoured Dress.osd\PaddingThighHipUpperWidth</Data>
+            <Data name="StrapTorsoHipUpperWidth" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoHipUpperWidth</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRKneeHeight" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRKneeHeight</Data>
+            <Data name="StockingsKneeHeight" target="Stockings" local="true">DCC - Maid - Armoured Dress.osd\StockingsKneeHeight</Data>
+            <Data name="ArmourThighKneeHeight" target="ArmourThigh" local="true">DCC - Maid - Armoured Dress.osd\ArmourThighKneeHeight</Data>
+            <Data name="PaddingThighKneeHeight" target="PaddingThigh" local="true">DCC - Maid - Armoured Dress.osd\PaddingThighKneeHeight</Data>
+            <Data name="EdgeThighKneeHeight" target="EdgeThigh" local="true">DCC - Maid - Armoured Dress.osd\EdgeThighKneeHeight</Data>
+            <Data name="StockingTopsKneeHeight" target="StockingTops" local="true">DCC - Maid - Armoured Dress.osd\StockingTopsKneeHeight</Data>
+        </Slider>
+        <Slider name="LegShapeClassic" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRLegShapeClassic" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRLegShapeClassic</Data>
+            <Data name="StockingsLegShapeClassic" target="Stockings" local="true">DCC - Maid - Armoured Dress.osd\StockingsLegShapeClassic</Data>
+            <Data name="RivetThighLegShapeClassic" target="RivetThigh" local="true">DCC - Maid - Armoured Dress.osd\RivetThighLegShapeClassic</Data>
+            <Data name="ArmourThighLegShapeClassic" target="ArmourThigh" local="true">DCC - Maid - Armoured Dress.osd\ArmourThighLegShapeClassic</Data>
+            <Data name="StrapThighLegShapeClassic" target="StrapThigh" local="true">DCC - Maid - Armoured Dress.osd\StrapThighLegShapeClassic</Data>
+            <Data name="PaddingThighLegShapeClassic" target="PaddingThigh" local="true">DCC - Maid - Armoured Dress.osd\PaddingThighLegShapeClassic</Data>
+            <Data name="EdgeThighLegShapeClassic" target="EdgeThigh" local="true">DCC - Maid - Armoured Dress.osd\EdgeThighLegShapeClassic</Data>
+            <Data name="StockingTopsLegShapeClassic" target="StockingTops" local="true">DCC - Maid - Armoured Dress.osd\StockingTopsLegShapeClassic</Data>
+        </Slider>
+        <Slider name="LegsThin" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRLegsThin" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRLegsThin</Data>
+            <Data name="LaceDressLegsThin" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressLegsThin</Data>
+            <Data name="DressLegsThin" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressLegsThin</Data>
+            <Data name="StockingsLegsThin" target="Stockings" local="true">DCC - Maid - Armoured Dress.osd\StockingsLegsThin</Data>
+            <Data name="RivetThighLegsThin" target="RivetThigh" local="true">DCC - Maid - Armoured Dress.osd\RivetThighLegsThin</Data>
+            <Data name="ArmourThighLegsThin" target="ArmourThigh" local="true">DCC - Maid - Armoured Dress.osd\ArmourThighLegsThin</Data>
+            <Data name="StrapThighLegsThin" target="StrapThigh" local="true">DCC - Maid - Armoured Dress.osd\StrapThighLegsThin</Data>
+            <Data name="PaddingThighLegsThin" target="PaddingThigh" local="true">DCC - Maid - Armoured Dress.osd\PaddingThighLegsThin</Data>
+            <Data name="EdgeThighLegsThin" target="EdgeThigh" local="true">DCC - Maid - Armoured Dress.osd\EdgeThighLegsThin</Data>
+            <Data name="StockingTopsLegsThin" target="StockingTops" local="true">DCC - Maid - Armoured Dress.osd\StockingTopsLegsThin</Data>
+        </Slider>
+        <Slider name="MuscleAbs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleAbs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleAbs</Data>
+            <Data name="DressMuscleAbs" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressMuscleAbs</Data>
+            <Data name="StrapTorsoMuscleAbs" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoMuscleAbs</Data>
+            <Data name="PaddingBreastMuscleAbs" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastMuscleAbs</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleArms" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleArms</Data>
+            <Data name="LaceDressMuscleArms" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressMuscleArms</Data>
+            <Data name="DressMuscleArms" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressMuscleArms</Data>
+            <Data name="RivetTorsoMuscleArms" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorsoMuscleArms</Data>
+            <Data name="StrapTorsoMuscleArms" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoMuscleArms</Data>
+            <Data name="ArmourStrapJunctionMuscleArms" target="ArmourStrapJunction" local="true">DCC - Maid - Armoured Dress.osd\ArmourStrapJunctionMuscleArms</Data>
+            <Data name="PaddingBreastMuscleArms" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastMuscleArms</Data>
+            <Data name="LaceShoulderMuscleArms" target="LaceShoulder" local="true">DCC - Maid - Armoured Dress.osd\LaceShoulderMuscleArms</Data>
+            <Data name="PaddingShoulderMuscleArms" target="PaddingShoulder" local="true">DCC - Maid - Armoured Dress.osd\PaddingShoulderMuscleArms</Data>
+            <Data name="EdgeShoulderMuscleArms" target="EdgeShoulder" local="true">DCC - Maid - Armoured Dress.osd\EdgeShoulderMuscleArms</Data>
+            <Data name="ArmourShoulderMuscleArms" target="ArmourShoulder" local="true">DCC - Maid - Armoured Dress.osd\ArmourShoulderMuscleArms</Data>
+        </Slider>
+        <Slider name="MuscleButt" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleButt" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleButt</Data>
+            <Data name="LaceDressMuscleButt" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressMuscleButt</Data>
+            <Data name="DressMuscleButt" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressMuscleButt</Data>
+            <Data name="RivetThighMuscleButt" target="RivetThigh" local="true">DCC - Maid - Armoured Dress.osd\RivetThighMuscleButt</Data>
+            <Data name="ArmourThighMuscleButt" target="ArmourThigh" local="true">DCC - Maid - Armoured Dress.osd\ArmourThighMuscleButt</Data>
+            <Data name="StrapThighMuscleButt" target="StrapThigh" local="true">DCC - Maid - Armoured Dress.osd\StrapThighMuscleButt</Data>
+            <Data name="PaddingThighMuscleButt" target="PaddingThigh" local="true">DCC - Maid - Armoured Dress.osd\PaddingThighMuscleButt</Data>
+            <Data name="EdgeThighMuscleButt" target="EdgeThigh" local="true">DCC - Maid - Armoured Dress.osd\EdgeThighMuscleButt</Data>
+        </Slider>
+        <Slider name="MuscleLegs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleLegs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleLegs</Data>
+            <Data name="LaceDressMuscleLegs" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressMuscleLegs</Data>
+            <Data name="DressMuscleLegs" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressMuscleLegs</Data>
+            <Data name="StockingsMuscleLegs" target="Stockings" local="true">DCC - Maid - Armoured Dress.osd\StockingsMuscleLegs</Data>
+            <Data name="RivetThighMuscleLegs" target="RivetThigh" local="true">DCC - Maid - Armoured Dress.osd\RivetThighMuscleLegs</Data>
+            <Data name="ArmourThighMuscleLegs" target="ArmourThigh" local="true">DCC - Maid - Armoured Dress.osd\ArmourThighMuscleLegs</Data>
+            <Data name="StrapThighMuscleLegs" target="StrapThigh" local="true">DCC - Maid - Armoured Dress.osd\StrapThighMuscleLegs</Data>
+            <Data name="PaddingThighMuscleLegs" target="PaddingThigh" local="true">DCC - Maid - Armoured Dress.osd\PaddingThighMuscleLegs</Data>
+            <Data name="EdgeThighMuscleLegs" target="EdgeThigh" local="true">DCC - Maid - Armoured Dress.osd\EdgeThighMuscleLegs</Data>
+            <Data name="StockingTopsMuscleLegs" target="StockingTops" local="true">DCC - Maid - Armoured Dress.osd\StockingTopsMuscleLegs</Data>
+        </Slider>
+        <Slider name="MusclePecs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMusclePecs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMusclePecs</Data>
+            <Data name="LaceDressMusclePecs" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressMusclePecs</Data>
+            <Data name="DressMusclePecs" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressMusclePecs</Data>
+            <Data name="RivetTorsoMusclePecs" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorsoMusclePecs</Data>
+            <Data name="StrapTorsoMusclePecs" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoMusclePecs</Data>
+            <Data name="PaddingBreastMusclePecs" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastMusclePecs</Data>
+            <Data name="ArmourBreastMusclePecs" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastMusclePecs</Data>
+            <Data name="EdgeBreastMusclePecs" target="EdgeBreast" local="true">DCC - Maid - Armoured Dress.osd\EdgeBreastMusclePecs</Data>
+        </Slider>
+        <Slider name="NeckSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="BaseShapeHRNeckSeam" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNeckSeam</Data>
+            <Data name="RivetTorsoNeckSeam" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorsoNeckSeam</Data>
+            <Data name="StrapTorsoNeckSeam" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoNeckSeam</Data>
+            <Data name="LaceShoulderNeckSeam" target="LaceShoulder" local="true">DCC - Maid - Armoured Dress.osd\LaceShoulderNeckSeam</Data>
+            <Data name="PaddingShoulderNeckSeam" target="PaddingShoulder" local="true">DCC - Maid - Armoured Dress.osd\PaddingShoulderNeckSeam</Data>
+            <Data name="EdgeShoulderNeckSeam" target="EdgeShoulder" local="true">DCC - Maid - Armoured Dress.osd\EdgeShoulderNeckSeam</Data>
+            <Data name="ArmourShoulderNeckSeam" target="ArmourShoulder" local="true">DCC - Maid - Armoured Dress.osd\ArmourShoulderNeckSeam</Data>
+        </Slider>
+        <Slider name="NipBGone" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNipBGone" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNipBGone</Data>
+            <Data name="LaceDressNipBGone" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressNipBGone</Data>
+            <Data name="DressNipBGone" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressNipBGone</Data>
+            <Data name="PaddingBreastNipBGone" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastNipBGone</Data>
+            <Data name="ArmourBreastNipBGone" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastNipBGone</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleDistance" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleDistance</Data>
+            <Data name="LaceDressNippleDistance" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressNippleDistance</Data>
+            <Data name="DressNippleDistance" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressNippleDistance</Data>
+            <Data name="RivetTorsoNippleDistance" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorsoNippleDistance</Data>
+            <Data name="StrapTorsoNippleDistance" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoNippleDistance</Data>
+            <Data name="PaddingBreastNippleDistance" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastNippleDistance</Data>
+            <Data name="ArmourBreastNippleDistance" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastNippleDistance</Data>
+            <Data name="EdgeBreastNippleDistance" target="EdgeBreast" local="true">DCC - Maid - Armoured Dress.osd\EdgeBreastNippleDistance</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleDown" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleDown</Data>
+            <Data name="LaceDressNippleDown" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressNippleDown</Data>
+            <Data name="DressNippleDown" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressNippleDown</Data>
+            <Data name="RivetTorsoNippleDown" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorsoNippleDown</Data>
+            <Data name="StrapTorsoNippleDown" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoNippleDown</Data>
+            <Data name="PaddingBreastNippleDown" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastNippleDown</Data>
+            <Data name="ArmourBreastNippleDown" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastNippleDown</Data>
+            <Data name="EdgeBreastNippleDown" target="EdgeBreast" local="true">DCC - Maid - Armoured Dress.osd\EdgeBreastNippleDown</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleLength" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleLength</Data>
+            <Data name="DressNippleLength" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressNippleLength</Data>
+            <Data name="PaddingBreastNippleLength" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastNippleLength</Data>
+            <Data name="ArmourBreastNippleLength" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastNippleLength</Data>
+        </Slider>
+        <Slider name="NippleManga" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleManga" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleManga</Data>
+            <Data name="DressNippleManga" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressNippleManga</Data>
+            <Data name="PaddingBreastNippleManga" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastNippleManga</Data>
+            <Data name="ArmourBreastNippleManga" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastNippleManga</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNipplePerkiness" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNipplePerkiness</Data>
+            <Data name="LaceDressNipplePerkiness" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressNipplePerkiness</Data>
+            <Data name="DressNipplePerkiness" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressNipplePerkiness</Data>
+            <Data name="PaddingBreastNipplePerkiness" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastNipplePerkiness</Data>
+            <Data name="ArmourBreastNipplePerkiness" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastNipplePerkiness</Data>
+            <Data name="EdgeBreastNipplePerkiness" target="EdgeBreast" local="true">DCC - Maid - Armoured Dress.osd\EdgeBreastNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NipplePerkManga" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNipplePerkManga" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNipplePerkManga</Data>
+            <Data name="LaceDressNipplePerkManga" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressNipplePerkManga</Data>
+            <Data name="DressNipplePerkManga" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressNipplePerkManga</Data>
+            <Data name="PaddingBreastNipplePerkManga" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastNipplePerkManga</Data>
+            <Data name="ArmourBreastNipplePerkManga" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastNipplePerkManga</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleSize</Data>
+            <Data name="LaceDressNippleSize" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressNippleSize</Data>
+            <Data name="DressNippleSize" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressNippleSize</Data>
+            <Data name="RivetTorsoNippleSize" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorsoNippleSize</Data>
+            <Data name="StrapTorsoNippleSize" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoNippleSize</Data>
+            <Data name="PaddingBreastNippleSize" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastNippleSize</Data>
+            <Data name="ArmourBreastNippleSize" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastNippleSize</Data>
+            <Data name="EdgeBreastNippleSize" target="EdgeBreast" local="true">DCC - Maid - Armoured Dress.osd\EdgeBreastNippleSize</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleTip" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleTip</Data>
+            <Data name="LaceDressNippleTip" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressNippleTip</Data>
+            <Data name="DressNippleTip" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressNippleTip</Data>
+            <Data name="PaddingBreastNippleTip" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastNippleTip</Data>
+            <Data name="ArmourBreastNippleTip" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastNippleTip</Data>
+        </Slider>
+        <Slider name="NippleTipManga" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleTipManga" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleTipManga</Data>
+            <Data name="DressNippleTipManga" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressNippleTipManga</Data>
+            <Data name="PaddingBreastNippleTipManga" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastNippleTipManga</Data>
+            <Data name="ArmourBreastNippleTipManga" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastNippleTipManga</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleUp" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleUp</Data>
+            <Data name="LaceDressNippleUp" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressNippleUp</Data>
+            <Data name="DressNippleUp" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressNippleUp</Data>
+            <Data name="RivetTorsoNippleUp" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorsoNippleUp</Data>
+            <Data name="StrapTorsoNippleUp" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoNippleUp</Data>
+            <Data name="PaddingBreastNippleUp" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastNippleUp</Data>
+            <Data name="ArmourBreastNippleUp" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastNippleUp</Data>
+            <Data name="EdgeBreastNippleUp" target="EdgeBreast" local="true">DCC - Maid - Armoured Dress.osd\EdgeBreastNippleUp</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRPregnancyBelly" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRPregnancyBelly</Data>
+            <Data name="LaceDressPregnancyBelly" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressPregnancyBelly</Data>
+            <Data name="DressPregnancyBelly" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressPregnancyBelly</Data>
+            <Data name="ArmourThighPregnancyBelly" target="ArmourThigh" local="true">DCC - Maid - Armoured Dress.osd\ArmourThighPregnancyBelly</Data>
+            <Data name="StrapThighPregnancyBelly" target="StrapThigh" local="true">DCC - Maid - Armoured Dress.osd\StrapThighPregnancyBelly</Data>
+            <Data name="PaddingThighPregnancyBelly" target="PaddingThigh" local="true">DCC - Maid - Armoured Dress.osd\PaddingThighPregnancyBelly</Data>
+            <Data name="RivetTorsoPregnancyBelly" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorsoPregnancyBelly</Data>
+            <Data name="StrapTorsoPregnancyBelly" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoPregnancyBelly</Data>
+            <Data name="ArmourStrapJunctionPregnancyBelly" target="ArmourStrapJunction" local="true">DCC - Maid - Armoured Dress.osd\ArmourStrapJunctionPregnancyBelly</Data>
+            <Data name="PaddingBreastPregnancyBelly" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastPregnancyBelly</Data>
+            <Data name="ArmourBreastPregnancyBelly" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastPregnancyBelly</Data>
+            <Data name="EdgeBreastPregnancyBelly" target="EdgeBreast" local="true">DCC - Maid - Armoured Dress.osd\EdgeBreastPregnancyBelly</Data>
+            <Data name="EdgeThighPregnancyBelly" target="EdgeThigh" local="true">DCC - Maid - Armoured Dress.osd\EdgeThighPregnancyBelly</Data>
+            <Data name="StockingTopsPregnancyBelly" target="StockingTops" local="true">DCC - Maid - Armoured Dress.osd\StockingTopsPregnancyBelly</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRPushUp" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRPushUp</Data>
+            <Data name="LaceDressPushUp" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressPushUp</Data>
+            <Data name="DressPushUp" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressPushUp</Data>
+            <Data name="RivetTorsoPushUp" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorsoPushUp</Data>
+            <Data name="StrapTorsoPushUp" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoPushUp</Data>
+            <Data name="PaddingBreastPushUp" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastPushUp</Data>
+            <Data name="ArmourBreastPushUp" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastPushUp</Data>
+            <Data name="LaceShoulderPushUp" target="LaceShoulder" local="true">DCC - Maid - Armoured Dress.osd\LaceShoulderPushUp</Data>
+            <Data name="EdgeBreastPushUp" target="EdgeBreast" local="true">DCC - Maid - Armoured Dress.osd\EdgeBreastPushUp</Data>
+        </Slider>
+        <Slider name="RibsProminance" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRRibsProminance" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRRibsProminance</Data>
+            <Data name="DressRibsProminance" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressRibsProminance</Data>
+            <Data name="StrapTorsoRibsProminance" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoRibsProminance</Data>
+            <Data name="PaddingBreastRibsProminance" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastRibsProminance</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRRoundAss" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRRoundAss</Data>
+            <Data name="LaceDressRoundAss" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressRoundAss</Data>
+            <Data name="DressRoundAss" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressRoundAss</Data>
+            <Data name="RivetThighRoundAss" target="RivetThigh" local="true">DCC - Maid - Armoured Dress.osd\RivetThighRoundAss</Data>
+            <Data name="ArmourThighRoundAss" target="ArmourThigh" local="true">DCC - Maid - Armoured Dress.osd\ArmourThighRoundAss</Data>
+            <Data name="StrapThighRoundAss" target="StrapThigh" local="true">DCC - Maid - Armoured Dress.osd\StrapThighRoundAss</Data>
+            <Data name="PaddingThighRoundAss" target="PaddingThigh" local="true">DCC - Maid - Armoured Dress.osd\PaddingThighRoundAss</Data>
+            <Data name="EdgeThighRoundAss" target="EdgeThigh" local="true">DCC - Maid - Armoured Dress.osd\EdgeThighRoundAss</Data>
+            <Data name="StockingTopsRoundAss" target="StockingTops" local="true">DCC - Maid - Armoured Dress.osd\StockingTopsRoundAss</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRShoulderSmooth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRShoulderSmooth</Data>
+            <Data name="RivetTorsoShoulderSmooth" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorsoShoulderSmooth</Data>
+            <Data name="StrapTorsoShoulderSmooth" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoShoulderSmooth</Data>
+            <Data name="LaceShoulderShoulderSmooth" target="LaceShoulder" local="true">DCC - Maid - Armoured Dress.osd\LaceShoulderShoulderSmooth</Data>
+            <Data name="PaddingShoulderShoulderSmooth" target="PaddingShoulder" local="true">DCC - Maid - Armoured Dress.osd\PaddingShoulderShoulderSmooth</Data>
+            <Data name="EdgeShoulderShoulderSmooth" target="EdgeShoulder" local="true">DCC - Maid - Armoured Dress.osd\EdgeShoulderShoulderSmooth</Data>
+            <Data name="ArmourShoulderShoulderSmooth" target="ArmourShoulder" local="true">DCC - Maid - Armoured Dress.osd\ArmourShoulderShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRshouldertweak" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRshouldertweak</Data>
+            <Data name="RivetTorsoShoulderTweak" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorsoShoulderTweak</Data>
+            <Data name="StrapTorsoShoulderTweak" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoShoulderTweak</Data>
+            <Data name="LaceShoulderShoulderTweak" target="LaceShoulder" local="true">DCC - Maid - Armoured Dress.osd\LaceShoulderShoulderTweak</Data>
+            <Data name="PaddingShoulderShoulderTweak" target="PaddingShoulder" local="true">DCC - Maid - Armoured Dress.osd\PaddingShoulderShoulderTweak</Data>
+            <Data name="EdgeShoulderShoulderTweak" target="EdgeShoulder" local="true">DCC - Maid - Armoured Dress.osd\EdgeShoulderShoulderTweak</Data>
+            <Data name="ArmourShoulderShoulderTweak" target="ArmourShoulder" local="true">DCC - Maid - Armoured Dress.osd\ArmourShoulderShoulderTweak</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRshoulderWidth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRshoulderWidth</Data>
+            <Data name="LaceDressShoulderWidth" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressShoulderWidth</Data>
+            <Data name="DressShoulderWidth" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressShoulderWidth</Data>
+            <Data name="RivetTorsoShoulderWidth" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorsoShoulderWidth</Data>
+            <Data name="StrapTorsoShoulderWidth" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoShoulderWidth</Data>
+            <Data name="ArmourStrapJunctionShoulderWidth" target="ArmourStrapJunction" local="true">DCC - Maid - Armoured Dress.osd\ArmourStrapJunctionShoulderWidth</Data>
+            <Data name="PaddingBreastShoulderWidth" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastShoulderWidth</Data>
+            <Data name="ArmourBreastShoulderWidth" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastShoulderWidth</Data>
+            <Data name="LaceShoulderShoulderWidth" target="LaceShoulder" local="true">DCC - Maid - Armoured Dress.osd\LaceShoulderShoulderWidth</Data>
+            <Data name="PaddingShoulderShoulderWidth" target="PaddingShoulder" local="true">DCC - Maid - Armoured Dress.osd\PaddingShoulderShoulderWidth</Data>
+            <Data name="EdgeShoulderShoulderWidth" target="EdgeShoulder" local="true">DCC - Maid - Armoured Dress.osd\EdgeShoulderShoulderWidth</Data>
+            <Data name="ArmourShoulderShoulderWidth" target="ArmourShoulder" local="true">DCC - Maid - Armoured Dress.osd\ArmourShoulderShoulderWidth</Data>
+            <Data name="EdgeBreastShoulderWidth" target="EdgeBreast" local="true">DCC - Maid - Armoured Dress.osd\EdgeBreastShoulderWidth</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRSlimThighs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRSlimThighs</Data>
+            <Data name="LaceDressSlimThighs" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressSlimThighs</Data>
+            <Data name="DressSlimThighs" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressSlimThighs</Data>
+            <Data name="StockingsSlimThighs" target="Stockings" local="true">DCC - Maid - Armoured Dress.osd\StockingsSlimThighs</Data>
+            <Data name="RivetThighSlimThighs" target="RivetThigh" local="true">DCC - Maid - Armoured Dress.osd\RivetThighSlimThighs</Data>
+            <Data name="ArmourThighSlimThighs" target="ArmourThigh" local="true">DCC - Maid - Armoured Dress.osd\ArmourThighSlimThighs</Data>
+            <Data name="StrapThighSlimThighs" target="StrapThigh" local="true">DCC - Maid - Armoured Dress.osd\StrapThighSlimThighs</Data>
+            <Data name="PaddingThighSlimThighs" target="PaddingThigh" local="true">DCC - Maid - Armoured Dress.osd\PaddingThighSlimThighs</Data>
+            <Data name="EdgeThighSlimThighs" target="EdgeThigh" local="true">DCC - Maid - Armoured Dress.osd\EdgeThighSlimThighs</Data>
+            <Data name="StockingTopsSlimThighs" target="StockingTops" local="true">DCC - Maid - Armoured Dress.osd\StockingTopsSlimThighs</Data>
+        </Slider>
+        <Slider name="SternumDepth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRSternumDepth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRSternumDepth</Data>
+            <Data name="LaceDressSternumDepth" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressSternumDepth</Data>
+            <Data name="DressSternumDepth" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressSternumDepth</Data>
+            <Data name="RivetTorsoSternumDepth" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorsoSternumDepth</Data>
+            <Data name="StrapTorsoSternumDepth" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoSternumDepth</Data>
+            <Data name="PaddingBreastSternumDepth" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastSternumDepth</Data>
+            <Data name="ArmourBreastSternumDepth" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastSternumDepth</Data>
+            <Data name="EdgeBreastSternumDepth" target="EdgeBreast" local="true">DCC - Maid - Armoured Dress.osd\EdgeBreastSternumDepth</Data>
+        </Slider>
+        <Slider name="SternumHeight" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRSternumHeight" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRSternumHeight</Data>
+            <Data name="LaceDressSternumHeight" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressSternumHeight</Data>
+            <Data name="DressSternumHeight" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressSternumHeight</Data>
+            <Data name="RivetTorsoSternumHeight" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorsoSternumHeight</Data>
+            <Data name="StrapTorsoSternumHeight" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoSternumHeight</Data>
+            <Data name="PaddingBreastSternumHeight" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastSternumHeight</Data>
+            <Data name="ArmourBreastSternumHeight" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastSternumHeight</Data>
+            <Data name="EdgeBreastSternumHeight" target="EdgeBreast" local="true">DCC - Maid - Armoured Dress.osd\EdgeBreastSternumHeight</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRThighs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRThighs</Data>
+            <Data name="LaceDressThighs" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressThighs</Data>
+            <Data name="DressThighs" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressThighs</Data>
+            <Data name="StockingsThighs" target="Stockings" local="true">DCC - Maid - Armoured Dress.osd\StockingsThighs</Data>
+            <Data name="RivetThighThighs" target="RivetThigh" local="true">DCC - Maid - Armoured Dress.osd\RivetThighThighs</Data>
+            <Data name="ArmourThighThighs" target="ArmourThigh" local="true">DCC - Maid - Armoured Dress.osd\ArmourThighThighs</Data>
+            <Data name="StrapThighThighs" target="StrapThigh" local="true">DCC - Maid - Armoured Dress.osd\StrapThighThighs</Data>
+            <Data name="PaddingThighThighs" target="PaddingThigh" local="true">DCC - Maid - Armoured Dress.osd\PaddingThighThighs</Data>
+            <Data name="EdgeThighThighs" target="EdgeThigh" local="true">DCC - Maid - Armoured Dress.osd\EdgeThighThighs</Data>
+            <Data name="StockingTopsThighs" target="StockingTops" local="true">DCC - Maid - Armoured Dress.osd\StockingTopsThighs</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRTummyTuck" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRTummyTuck</Data>
+            <Data name="LaceDressTummyTuck" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressTummyTuck</Data>
+            <Data name="DressTummyTuck" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressTummyTuck</Data>
+            <Data name="StrapThighTummyTuck" target="StrapThigh" local="true">DCC - Maid - Armoured Dress.osd\StrapThighTummyTuck</Data>
+            <Data name="PaddingThighTummyTuck" target="PaddingThigh" local="true">DCC - Maid - Armoured Dress.osd\PaddingThighTummyTuck</Data>
+            <Data name="StrapTorsoTummyTuck" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoTummyTuck</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRwaist" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRwaist</Data>
+            <Data name="LaceDressWaist" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressWaist</Data>
+            <Data name="DressWaist" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressWaist</Data>
+            <Data name="StrapTorsoWaist" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoWaist</Data>
+            <Data name="ArmourStrapJunctionWaist" target="ArmourStrapJunction" local="true">DCC - Maid - Armoured Dress.osd\ArmourStrapJunctionWaist</Data>
+        </Slider>
+        <Slider name="WaistHeight" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRWaistHeight" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRWaistHeight</Data>
+            <Data name="LaceDressWaistHeight" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressWaistHeight</Data>
+            <Data name="DressWaistHeight" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressWaistHeight</Data>
+            <Data name="StrapTorsoWaistHeight" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoWaistHeight</Data>
+            <Data name="ArmourStrapJunctionWaistHeight" target="ArmourStrapJunction" local="true">DCC - Maid - Armoured Dress.osd\ArmourStrapJunctionWaistHeight</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRWideWaistLine" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRWideWaistLine</Data>
+            <Data name="LaceDressWideWaistLine" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressWideWaistLine</Data>
+            <Data name="DressWideWaistLine" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressWideWaistLine</Data>
+            <Data name="ArmourThighWideWaistLine" target="ArmourThigh" local="true">DCC - Maid - Armoured Dress.osd\ArmourThighWideWaistLine</Data>
+            <Data name="PaddingThighWideWaistLine" target="PaddingThigh" local="true">DCC - Maid - Armoured Dress.osd\PaddingThighWideWaistLine</Data>
+            <Data name="StrapTorsoWideWaistLine" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoWideWaistLine</Data>
+            <Data name="ArmourStrapJunctionWideWaistLine" target="ArmourStrapJunction" local="true">DCC - Maid - Armoured Dress.osd\ArmourStrapJunctionWideWaistLine</Data>
+            <Data name="PaddingBreastWideWaistLine" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastWideWaistLine</Data>
+            <Data name="EdgeThighWideWaistLine" target="EdgeThigh" local="true">DCC - Maid - Armoured Dress.osd\EdgeThighWideWaistLine</Data>
+        </Slider>
+        <Slider name="WristSize" invert="false" small="100" big="0">
+            <Data name="BaseShapeHRWristSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRWristSize</Data>
+        </Slider>
+        <Slider name="7B Lower" invert="false" small="0" big="0">
+            <Data name="BaseShapeHR7B Lower" target="BaseShapeHR">CBBE Body.osd\BaseShapeHR7B Lower</Data>
+            <Data name="LaceDress7B Lower" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDress7B Lower</Data>
+            <Data name="Dress7B Lower" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\Dress7B Lower</Data>
+            <Data name="Stockings7B Lower" target="Stockings" local="true">DCC - Maid - Armoured Dress.osd\Stockings7B Lower</Data>
+            <Data name="RivetThigh7B Lower" target="RivetThigh" local="true">DCC - Maid - Armoured Dress.osd\RivetThigh7B Lower</Data>
+            <Data name="ArmourThigh7B Lower" target="ArmourThigh" local="true">DCC - Maid - Armoured Dress.osd\ArmourThigh7B Lower</Data>
+            <Data name="StrapThigh7B Lower" target="StrapThigh" local="true">DCC - Maid - Armoured Dress.osd\StrapThigh7B Lower</Data>
+            <Data name="PaddingThigh7B Lower" target="PaddingThigh" local="true">DCC - Maid - Armoured Dress.osd\PaddingThigh7B Lower</Data>
+            <Data name="StrapTorso7B Lower" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorso7B Lower</Data>
+            <Data name="ArmourStrapJunction7B Lower" target="ArmourStrapJunction" local="true">DCC - Maid - Armoured Dress.osd\ArmourStrapJunction7B Lower</Data>
+            <Data name="EdgeThigh7B Lower" target="EdgeThigh" local="true">DCC - Maid - Armoured Dress.osd\EdgeThigh7B Lower</Data>
+            <Data name="StockingTops7B Lower" target="StockingTops" local="true">DCC - Maid - Armoured Dress.osd\StockingTops7B Lower</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="BaseShapeHR7B Upper" target="BaseShapeHR">CBBE Body.osd\BaseShapeHR7B Upper</Data>
+            <Data name="LaceDress7B Upper" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDress7B Upper</Data>
+            <Data name="Dress7B Upper" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\Dress7B Upper</Data>
+            <Data name="ArmourThigh7B Upper" target="ArmourThigh" local="true">DCC - Maid - Armoured Dress.osd\ArmourThigh7B Upper</Data>
+            <Data name="PaddingThigh7B Upper" target="PaddingThigh" local="true">DCC - Maid - Armoured Dress.osd\PaddingThigh7B Upper</Data>
+            <Data name="RivetTorso7B Upper" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorso7B Upper</Data>
+            <Data name="StrapTorso7B Upper" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorso7B Upper</Data>
+            <Data name="ArmourStrapJunction7B Upper" target="ArmourStrapJunction" local="true">DCC - Maid - Armoured Dress.osd\ArmourStrapJunction7B Upper</Data>
+            <Data name="PaddingBreast7B Upper" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreast7B Upper</Data>
+            <Data name="ArmourBreast7B Upper" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreast7B Upper</Data>
+            <Data name="LaceShoulder7B Upper" target="LaceShoulder" local="true">DCC - Maid - Armoured Dress.osd\LaceShoulder7B Upper</Data>
+            <Data name="PaddingShoulder7B Upper" target="PaddingShoulder" local="true">DCC - Maid - Armoured Dress.osd\PaddingShoulder7B Upper</Data>
+            <Data name="EdgeShoulder7B Upper" target="EdgeShoulder" local="true">DCC - Maid - Armoured Dress.osd\EdgeShoulder7B Upper</Data>
+            <Data name="ArmourShoulder7B Upper" target="ArmourShoulder" local="true">DCC - Maid - Armoured Dress.osd\ArmourShoulder7B Upper</Data>
+            <Data name="EdgeBreast7B Upper" target="EdgeBreast" local="true">DCC - Maid - Armoured Dress.osd\EdgeBreast7B Upper</Data>
+            <Data name="EdgeThigh7B Upper" target="EdgeThigh" local="true">DCC - Maid - Armoured Dress.osd\EdgeThigh7B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRVanillaSSEHi" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRVanillaSSEHi</Data>
+            <Data name="LaceDressVanillaSSEHi" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressVanillaSSEHi</Data>
+            <Data name="DressVanillaSSEHi" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressVanillaSSEHi</Data>
+            <Data name="StockingsVanillaSSEHi" target="Stockings" local="true">DCC - Maid - Armoured Dress.osd\StockingsVanillaSSEHi</Data>
+            <Data name="RivetThighVanillaSSEHi" target="RivetThigh" local="true">DCC - Maid - Armoured Dress.osd\RivetThighVanillaSSEHi</Data>
+            <Data name="ArmourThighVanillaSSEHi" target="ArmourThigh" local="true">DCC - Maid - Armoured Dress.osd\ArmourThighVanillaSSEHi</Data>
+            <Data name="StrapThighVanillaSSEHi" target="StrapThigh" local="true">DCC - Maid - Armoured Dress.osd\StrapThighVanillaSSEHi</Data>
+            <Data name="PaddingThighVanillaSSEHi" target="PaddingThigh" local="true">DCC - Maid - Armoured Dress.osd\PaddingThighVanillaSSEHi</Data>
+            <Data name="RivetTorsoVanillaSSEHi" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorsoVanillaSSEHi</Data>
+            <Data name="StrapTorsoVanillaSSEHi" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoVanillaSSEHi</Data>
+            <Data name="ArmourStrapJunctionVanillaSSEHi" target="ArmourStrapJunction" local="true">DCC - Maid - Armoured Dress.osd\ArmourStrapJunctionVanillaSSEHi</Data>
+            <Data name="PaddingBreastVanillaSSEHi" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastVanillaSSEHi</Data>
+            <Data name="ArmourBreastVanillaSSEHi" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastVanillaSSEHi</Data>
+            <Data name="LaceShoulderVanillaSSEHi" target="LaceShoulder" local="true">DCC - Maid - Armoured Dress.osd\LaceShoulderVanillaSSEHi</Data>
+            <Data name="PaddingShoulderVanillaSSEHi" target="PaddingShoulder" local="true">DCC - Maid - Armoured Dress.osd\PaddingShoulderVanillaSSEHi</Data>
+            <Data name="EdgeShoulderVanillaSSEHi" target="EdgeShoulder" local="true">DCC - Maid - Armoured Dress.osd\EdgeShoulderVanillaSSEHi</Data>
+            <Data name="ArmourShoulderVanillaSSEHi" target="ArmourShoulder" local="true">DCC - Maid - Armoured Dress.osd\ArmourShoulderVanillaSSEHi</Data>
+            <Data name="EdgeBreastVanillaSSEHi" target="EdgeBreast" local="true">DCC - Maid - Armoured Dress.osd\EdgeBreastVanillaSSEHi</Data>
+            <Data name="EdgeThighVanillaSSEHi" target="EdgeThigh" local="true">DCC - Maid - Armoured Dress.osd\EdgeThighVanillaSSEHi</Data>
+            <Data name="StockingTopsVanillaSSEHi" target="StockingTops" local="true">DCC - Maid - Armoured Dress.osd\StockingTopsVanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRVanillaSSELo" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRVanillaSSELo</Data>
+            <Data name="LaceDressVanillaSSELo" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressVanillaSSELo</Data>
+            <Data name="DressVanillaSSELo" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressVanillaSSELo</Data>
+            <Data name="StockingsVanillaSSELo" target="Stockings" local="true">DCC - Maid - Armoured Dress.osd\StockingsVanillaSSELo</Data>
+            <Data name="RivetThighVanillaSSELo" target="RivetThigh" local="true">DCC - Maid - Armoured Dress.osd\RivetThighVanillaSSELo</Data>
+            <Data name="ArmourThighVanillaSSELo" target="ArmourThigh" local="true">DCC - Maid - Armoured Dress.osd\ArmourThighVanillaSSELo</Data>
+            <Data name="StrapThighVanillaSSELo" target="StrapThigh" local="true">DCC - Maid - Armoured Dress.osd\StrapThighVanillaSSELo</Data>
+            <Data name="PaddingThighVanillaSSELo" target="PaddingThigh" local="true">DCC - Maid - Armoured Dress.osd\PaddingThighVanillaSSELo</Data>
+            <Data name="RivetTorsoVanillaSSELo" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorsoVanillaSSELo</Data>
+            <Data name="StrapTorsoVanillaSSELo" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoVanillaSSELo</Data>
+            <Data name="ArmourStrapJunctionVanillaSSELo" target="ArmourStrapJunction" local="true">DCC - Maid - Armoured Dress.osd\ArmourStrapJunctionVanillaSSELo</Data>
+            <Data name="PaddingBreastVanillaSSELo" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastVanillaSSELo</Data>
+            <Data name="ArmourBreastVanillaSSELo" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastVanillaSSELo</Data>
+            <Data name="LaceShoulderVanillaSSELo" target="LaceShoulder" local="true">DCC - Maid - Armoured Dress.osd\LaceShoulderVanillaSSELo</Data>
+            <Data name="PaddingShoulderVanillaSSELo" target="PaddingShoulder" local="true">DCC - Maid - Armoured Dress.osd\PaddingShoulderVanillaSSELo</Data>
+            <Data name="EdgeShoulderVanillaSSELo" target="EdgeShoulder" local="true">DCC - Maid - Armoured Dress.osd\EdgeShoulderVanillaSSELo</Data>
+            <Data name="ArmourShoulderVanillaSSELo" target="ArmourShoulder" local="true">DCC - Maid - Armoured Dress.osd\ArmourShoulderVanillaSSELo</Data>
+            <Data name="EdgeBreastVanillaSSELo" target="EdgeBreast" local="true">DCC - Maid - Armoured Dress.osd\EdgeBreastVanillaSSELo</Data>
+            <Data name="EdgeThighVanillaSSELo" target="EdgeThigh" local="true">DCC - Maid - Armoured Dress.osd\EdgeThighVanillaSSELo</Data>
+            <Data name="StockingTopsVanillaSSELo" target="StockingTops" local="true">DCC - Maid - Armoured Dress.osd\StockingTopsVanillaSSELo</Data>
+        </Slider>
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="BaseShapeHROldBaseShape" target="BaseShapeHR">CBBE Body.osd\BaseShapeHROldBaseShape</Data>
+            <Data name="LaceDressOldBaseShape" target="LaceDress" local="true">DCC - Maid - Armoured Dress.osd\LaceDressOldBaseShape</Data>
+            <Data name="DressOldBaseShape" target="Dress" local="true">DCC - Maid - Armoured Dress.osd\DressOldBaseShape</Data>
+            <Data name="StockingsOldBaseShape" target="Stockings" local="true">DCC - Maid - Armoured Dress.osd\StockingsOldBaseShape</Data>
+            <Data name="RivetThighOldBaseShape" target="RivetThigh" local="true">DCC - Maid - Armoured Dress.osd\RivetThighOldBaseShape</Data>
+            <Data name="ArmourThighOldBaseShape" target="ArmourThigh" local="true">DCC - Maid - Armoured Dress.osd\ArmourThighOldBaseShape</Data>
+            <Data name="StrapThighOldBaseShape" target="StrapThigh" local="true">DCC - Maid - Armoured Dress.osd\StrapThighOldBaseShape</Data>
+            <Data name="PaddingThighOldBaseShape" target="PaddingThigh" local="true">DCC - Maid - Armoured Dress.osd\PaddingThighOldBaseShape</Data>
+            <Data name="RivetTorsoOldBaseShape" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorsoOldBaseShape</Data>
+            <Data name="StrapTorsoOldBaseShape" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoOldBaseShape</Data>
+            <Data name="ArmourStrapJunctionOldBaseShape" target="ArmourStrapJunction" local="true">DCC - Maid - Armoured Dress.osd\ArmourStrapJunctionOldBaseShape</Data>
+            <Data name="PaddingBreastOldBaseShape" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastOldBaseShape</Data>
+            <Data name="ArmourBreastOldBaseShape" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastOldBaseShape</Data>
+            <Data name="LaceShoulderOldBaseShape" target="LaceShoulder" local="true">DCC - Maid - Armoured Dress.osd\LaceShoulderOldBaseShape</Data>
+            <Data name="PaddingShoulderOldBaseShape" target="PaddingShoulder" local="true">DCC - Maid - Armoured Dress.osd\PaddingShoulderOldBaseShape</Data>
+            <Data name="EdgeShoulderOldBaseShape" target="EdgeShoulder" local="true">DCC - Maid - Armoured Dress.osd\EdgeShoulderOldBaseShape</Data>
+            <Data name="ArmourShoulderOldBaseShape" target="ArmourShoulder" local="true">DCC - Maid - Armoured Dress.osd\ArmourShoulderOldBaseShape</Data>
+            <Data name="EdgeBreastOldBaseShape" target="EdgeBreast" local="true">DCC - Maid - Armoured Dress.osd\EdgeBreastOldBaseShape</Data>
+            <Data name="EdgeThighOldBaseShape" target="EdgeThigh" local="true">DCC - Maid - Armoured Dress.osd\EdgeThighOldBaseShape</Data>
+            <Data name="StockingTopsOldBaseShape" target="StockingTops" local="true">DCC - Maid - Armoured Dress.osd\StockingTopsOldBaseShape</Data>
+        </Slider>
+        <Slider name="Disable Thigh Armour" invert="false" small="0" big="0" zap="true">
+            <Data name="RivetThighDisable Thigh Armour" target="RivetThigh" local="true">DCC - Maid - Armoured Dress.osd\RivetThighDisable Thigh Armour</Data>
+            <Data name="ArmourThighDisable Thigh Armour" target="ArmourThigh" local="true">DCC - Maid - Armoured Dress.osd\ArmourThighDisable Thigh Armour</Data>
+            <Data name="StrapThighDisable Thigh Armour" target="StrapThigh" local="true">DCC - Maid - Armoured Dress.osd\StrapThighDisable Thigh Armour</Data>
+            <Data name="PaddingThighDisable Thigh Armour" target="PaddingThigh" local="true">DCC - Maid - Armoured Dress.osd\PaddingThighDisable Thigh Armour</Data>
+        </Slider>
+        <Slider name="Disable Torso Armour" invert="false" small="0" big="0" zap="true">
+            <Data name="RivetTorsoDisable Torso Armour" target="RivetTorso" local="true">DCC - Maid - Armoured Dress.osd\RivetTorsoDisable Torso Armour</Data>
+            <Data name="StrapTorsoDisable Torso Armour" target="StrapTorso" local="true">DCC - Maid - Armoured Dress.osd\StrapTorsoDisable Torso Armour</Data>
+            <Data name="ArmourStrapJunctionDisable Torso Armour" target="ArmourStrapJunction" local="true">DCC - Maid - Armoured Dress.osd\ArmourStrapJunctionDisable Torso Armour</Data>
+            <Data name="PaddingBreastDisable Torso Armour" target="PaddingBreast" local="true">DCC - Maid - Armoured Dress.osd\PaddingBreastDisable Torso Armour</Data>
+            <Data name="ArmourBreastDisable Torso Armour" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastDisable Torso Armour</Data>
+            <Data name="LaceShoulderDisable Torso Armour" target="LaceShoulder" local="true">DCC - Maid - Armoured Dress.osd\LaceShoulderDisable Torso Armour</Data>
+            <Data name="PaddingShoulderDisable Torso Armour" target="PaddingShoulder" local="true">DCC - Maid - Armoured Dress.osd\PaddingShoulderDisable Torso Armour</Data>
+            <Data name="ArmourShoulderDisable Torso Armour" target="ArmourShoulder" local="true">DCC - Maid - Armoured Dress.osd\ArmourShoulderDisable Torso Armour</Data>
+        </Slider>
+        <Slider name="Disable Stockings" invert="false" small="0" big="0" zap="true">
+            <Data name="StockingsDisable Stockings" target="Stockings" local="true">DCC - Maid - Armoured Dress.osd\StockingsDisable Stockings</Data>
+        </Slider>
+        <Slider name="Disable Armour Plates" invert="false" small="0" big="0" zap="true">
+            <Data name="ArmourThighDisable Armour Plates" target="ArmourThigh" local="true">DCC - Maid - Armoured Dress.osd\ArmourThighDisable Armour Plates</Data>
+            <Data name="ArmourBreastDisable Armour Plates" target="ArmourBreast" local="true">DCC - Maid - Armoured Dress.osd\ArmourBreastDisable Armour Plates</Data>
+            <Data name="ArmourShoulderDisable Armour Plates" target="ArmourShoulder" local="true">DCC - Maid - Armoured Dress.osd\ArmourShoulderDisable Armour Plates</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

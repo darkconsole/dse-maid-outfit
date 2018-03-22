@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderGroups>
+    <Group name="CBBE">
+        <Member name="DCC - Maid - Armoured Dress"/>
+        <Member name="DCC - Maid - Armoured Gloves"/>
+        <Member name="DCC - Maid - Armoured Panty"/>
+        <Member name="DCC - Maid - Armoured Shoes"/>
+        <Member name="DCC - Maid - Padded Dress"/>
+        <Member name="DCC - Maid - Padded Gloves"/>
+        <Member name="DCC - Maid - Padded Panty"/>
+        <Member name="DCC - Maid - Padded Shoes"/>
+        <Member name="DCC - Maid - Plain Dress"/>
+        <Member name="DCC - Maid - Plain Gloves"/>
+        <Member name="DCC - Maid - Plain Panty"/>
+        <Member name="DCC - Maid - Plain Shoes"/>
+        <Member name="DCC - Maid - Armoured Legs"/>
+        <Member name="DCC - Maid - Padded Legs"/>
+        <Member name="DCC - Maid - Plain Legs"/>
+    </Group>
+    <Group name="DCC - Maid">
+        <Member name="DCC - Maid - Plain Shoes"/>
+        <Member name="DCC - Maid - Plain Panty"/>
+        <Member name="DCC - Maid - Plain Gloves"/>
+        <Member name="DCC - Maid - Plain Dress"/>
+        <Member name="DCC - Maid - Padded Shoes"/>
+        <Member name="DCC - Maid - Padded Panty"/>
+        <Member name="DCC - Maid - Padded Gloves"/>
+        <Member name="DCC - Maid - Padded Dress"/>
+        <Member name="DCC - Maid - Armoured Shoes"/>
+        <Member name="DCC - Maid - Armoured Panty"/>
+        <Member name="DCC - Maid - Armoured Gloves"/>
+        <Member name="DCC - Maid - Armoured Dress"/>
+        <Member name="DCC - Maid - Armoured Legs"/>
+        <Member name="DCC - Maid - Padded Legs"/>
+        <Member name="DCC - Maid - Plain Legs"/>
+    </Group>
+</SliderGroups>
