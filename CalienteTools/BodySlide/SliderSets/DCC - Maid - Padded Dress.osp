@@ -563,6 +563,10 @@
             <Data name="EdgeThighKneeHeight" target="EdgeThigh" local="true">DCC - Maid - Padded Dress.osd\EdgeThighKneeHeight</Data>
             <Data name="PaddingThighKneeHeight" target="PaddingThigh" local="true">DCC - Maid - Padded Dress.osd\PaddingThighKneeHeight</Data>
         </Slider>
+        <Slider name="KneeShape" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRKneeShape" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRKneeShape</Data>
+            <Data name="StockingsKneeShape" target="Stockings" local="true">DCC - Maid - Padded Dress.osd\StockingsKneeShape</Data>
+        </Slider>
         <Slider name="LegShapeClassic" invert="false" small="0" big="0">
             <Data name="BaseShapeHRLegShapeClassic" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRLegShapeClassic</Data>
             <Data name="StockingsLegShapeClassic" target="Stockings" local="true">DCC - Maid - Padded Dress.osd\StockingsLegShapeClassic</Data>
@@ -986,30 +990,6 @@
             <Data name="StrapThighOldBaseShape" target="StrapThigh" local="true">DCC - Maid - Padded Dress.osd\StrapThighOldBaseShape</Data>
             <Data name="RivetThighOldBaseShape" target="RivetThigh" local="true">DCC - Maid - Padded Dress.osd\RivetThighOldBaseShape</Data>
             <Data name="RivetTorsoOldBaseShape" target="RivetTorso" local="true">DCC - Maid - Padded Dress.osd\RivetTorsoOldBaseShape</Data>
-        </Slider>
-        <Slider name="Disable Thigh Armour" invert="false" small="0" big="0" zap="true">
-            <Data name="ArmourThighDisable Thigh Armour" target="ArmourThigh" local="true">DCC - Maid - Padded Dress.osd\ArmourThighDisable Thigh Armour</Data>
-            <Data name="PaddingThighDisable Thigh Armour" target="PaddingThigh" local="true">DCC - Maid - Padded Dress.osd\PaddingThighDisable Thigh Armour</Data>
-            <Data name="StrapThighDisable Thigh Armour" target="StrapThigh" local="true">DCC - Maid - Padded Dress.osd\StrapThighDisable Thigh Armour</Data>
-            <Data name="RivetThighDisable Thigh Armour" target="RivetThigh" local="true">DCC - Maid - Padded Dress.osd\RivetThighDisable Thigh Armour</Data>
-        </Slider>
-        <Slider name="Disable Torso Armour" invert="false" small="0" big="0" zap="true">
-            <Data name="LaceShoulderDisable Torso Armour" target="LaceShoulder" local="true">DCC - Maid - Padded Dress.osd\LaceShoulderDisable Torso Armour</Data>
-            <Data name="ArmourBreastDisable Torso Armour" target="ArmourBreast" local="true">DCC - Maid - Padded Dress.osd\ArmourBreastDisable Torso Armour</Data>
-            <Data name="ArmourShoulderDisable Torso Armour" target="ArmourShoulder" local="true">DCC - Maid - Padded Dress.osd\ArmourShoulderDisable Torso Armour</Data>
-            <Data name="ArmourStrapJunctionDisable Torso Armour" target="ArmourStrapJunction" local="true">DCC - Maid - Padded Dress.osd\ArmourStrapJunctionDisable Torso Armour</Data>
-            <Data name="PaddingBreastDisable Torso Armour" target="PaddingBreast" local="true">DCC - Maid - Padded Dress.osd\PaddingBreastDisable Torso Armour</Data>
-            <Data name="PaddingShoulderDisable Torso Armour" target="PaddingShoulder" local="true">DCC - Maid - Padded Dress.osd\PaddingShoulderDisable Torso Armour</Data>
-            <Data name="StrapTorsoDisable Torso Armour" target="StrapTorso" local="true">DCC - Maid - Padded Dress.osd\StrapTorsoDisable Torso Armour</Data>
-            <Data name="RivetTorsoDisable Torso Armour" target="RivetTorso" local="true">DCC - Maid - Padded Dress.osd\RivetTorsoDisable Torso Armour</Data>
-        </Slider>
-        <Slider name="Disable Stockings" invert="false" small="0" big="0" zap="true">
-            <Data name="StockingsDisable Stockings" target="Stockings" local="true">DCC - Maid - Padded Dress.osd\StockingsDisable Stockings</Data>
-        </Slider>
-        <Slider name="Disable Armour Plates" invert="false" small="0" big="0" zap="true">
-            <Data name="ArmourBreastDisable Armour Plates" target="ArmourBreast" local="true">DCC - Maid - Padded Dress.osd\ArmourBreastDisable Armour Plates</Data>
-            <Data name="ArmourShoulderDisable Armour Plates" target="ArmourShoulder" local="true">DCC - Maid - Padded Dress.osd\ArmourShoulderDisable Armour Plates</Data>
-            <Data name="ArmourThighDisable Armour Plates" target="ArmourThigh" local="true">DCC - Maid - Padded Dress.osd\ArmourThighDisable Armour Plates</Data>
         </Slider>
     </SliderSet>
 </SliderSetInfo>

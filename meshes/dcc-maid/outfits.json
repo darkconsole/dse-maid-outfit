@@ -4,6 +4,12 @@
 	"Authour": "darkconsole <darkcee.legit@gmail.com>",
 	"Description": "This tells xEdit how to construct the 1000+ forms for all the colour variants that I cannot be fucked to make by hand.",
 	"Sources": {
+		"Nude": {
+			"ARMA": "dcc_maid_ArmaNude_%Variant%",
+			"ARMO": "dcc_maid_ArmoNude_%Variant%",
+			"Craft": "dcc_maid_CraftNude_%Variant%",
+			"Temper": "dcc_maid_TemperNude_%Variant%"
+		},
 		"Dress": {
 			"ARMA": "dcc_maid_ArmaDress_%Variant%",
 			"ARMO": "dcc_maid_ArmoDress_%Variant%",
@@ -36,6 +42,12 @@
 		}
 	},
 	"Outputs": {
+		"Nude": {
+			"ARMA": "dcc_maid_ArmaNude_%ID%_%Variant%",
+			"ARMO": "dcc_maid_ArmoNude_%ID%_%Variant%",
+			"Craft": "dcc_maid_CraftNude_%ID%_%Variant%",
+			"Temper": "dcc_maid_TemperNude_%ID%_%Variant%"
+		},
 		"Dress": {
 			"ARMA": "dcc_maid_ArmaDress_%ID%_%Variant%",
 			"ARMO": "dcc_maid_ArmoDress_%ID%_%Variant%",
@@ -68,6 +80,7 @@
 		}
 	},
 	"Names": {
+		"Nude": "Stockings",
 		"Dress": "Dress",
 		"Gloves": "Gloves",
 		"Legs": "Boot Covers",
@@ -97,6 +110,17 @@
 				"RivetThigh": "dcc_maid_TexMetalWhite",
 				"RivetTorso": "dcc_maid_TexMetalWhite",
 				"GarterStrap": "dcc_maid_TexLeatherBrown",
+				"GarterGem": "dcc_maid_TexMetalWhite",
+				"GarterSetting": "dcc_maid_TexMetalBrown"
+			} },
+			{ "Source": "Nude", "Textures": {
+				"Stockings": "dcc_maid_TexStockingBrown",
+				"StockingTops": "dcc_maid_TexStockingBrown",
+				"ArmourThigh": "dcc_maid_TexMetalWhite",
+				"EdgeThigh": "dcc_maid_TexMetalWhite",
+				"PaddingThigh": "dcc_maid_TexClothBrown",
+				"StrapThigh": "dcc_maid_TexLeatherBrown",
+				"RivetThigh": "dcc_maid_TexMetalWhite",
 				"GarterGem": "dcc_maid_TexMetalWhite",
 				"GarterSetting": "dcc_maid_TexMetalBrown"
 			} },
@@ -156,6 +180,17 @@
 				"GarterGem": "dcc_maid_TexFactionFalkreathBreast",
 				"GarterSetting": "dcc_maid_TexMetalBlack"
 			} },
+			{ "Source": "Nude", "Textures": {
+				"Stockings": "dcc_maid_TexStockingSteelblue",
+				"StockingTops": "dcc_maid_TexStockingWhite",
+				"ArmourThigh": "dcc_maid_TexFactionFalkreathThigh",
+				"EdgeThigh": "dcc_maid_TexMetalSteelblue",
+				"PaddingThigh": "dcc_maid_TexClothSteelblueDark",
+				"StrapThigh": "dcc_maid_TexLeatherBlack",
+				"RivetThigh": "dcc_maid_TexMetalWhite",
+				"GarterGem": "dcc_maid_TexFactionFalkreathBreast",
+				"GarterSetting": "dcc_maid_TexMetalBlack"
+			} },
 			{ "Source": "Gloves", "Textures": {
 				"ArmourArm": "dcc_maid_TexMetalWhite",
 				"PaddingArm": "dcc_maid_TexClothSteelblueDark",
@@ -212,6 +247,17 @@
 				"GarterGem": "dcc_maid_TexMetalRed",
 				"GarterSetting": "dcc_maid_TexMetalBlack"
 			} },
+			{ "Source": "Nude", "Textures": {
+				"Stockings": "dcc_maid_TexStockingWhite",
+				"StockingTops": "dcc_maid_TexStockingRed",
+				"ArmourThigh": "dcc_maid_TexMetalWhite",
+				"EdgeThigh": "dcc_maid_TexMetalRed",
+				"PaddingThigh": "dcc_maid_TexClothRed",
+				"StrapThigh": "dcc_maid_TexLeatherBlack",
+				"RivetThigh": "dcc_maid_TexMetalWhite",
+				"GarterGem": "dcc_maid_TexMetalRed",
+				"GarterSetting": "dcc_maid_TexMetalBlack"
+			} },
 			{ "Source": "Gloves", "Textures": {
 				"ArmourArm": "dcc_maid_TexMetalWhite",
 				"PaddingArm": "dcc_maid_TexClothRed",
@@ -245,6 +291,30 @@
 		] },
 		{ "ID": "N7", "Prefix": "N7", "Armors": [
 			{ "Source": "Dress", "Textures": {
+				"Dress": "dcc_maid_TexClothGreyDark",
+				"Stockings": "dcc_maid_TexStockingGreyDark",
+				"StockingTops": "dcc_maid_TexStockingGreyDark",
+				"LaceDress": "dcc_maid_TexLaceBlack",
+				"LaceShoulder": "dcc_maid_TexLaceBlack",
+				"ArmourBreast": "dcc_maid_TexFactionN7Breast",
+				"ArmourShoulder": "dcc_maid_TexFactionN7Shoulder",
+				"ArmourStrapJunction": "dcc_maid_TexMetalBlack",
+				"ArmourThigh": "dcc_maid_TexMetalGreyDark",
+				"EdgeBreast": "dcc_maid_TexMetalGrey",
+				"EdgeShoulder": "dcc_maid_TexMetalGrey",
+				"EdgeThigh": "dcc_maid_TexMetalGrey",
+				"PaddingBreast": "dcc_maid_TexClothGrey",
+				"PaddingThigh": "dcc_maid_TexClothGrey",
+				"PaddingShoulder": "dcc_maid_TexClothGreyDark",
+				"StrapTorso": "dcc_maid_TexLeatherBlack",
+				"StrapThigh": "dcc_maid_TexLeatherBlack",
+				"RivetThigh": "dcc_maid_TexMetalBlack",
+				"RivetTorso": "dcc_maid_TexMetalBlack",
+				"GarterStrap": "dcc_maid_TexLeatherBlack",
+				"GarterGem": "dcc_maid_TexMetalRed",
+				"GarterSetting": "dcc_maid_TexMetalBlack"
+			} },
+			{ "Source": "Nude", "Textures": {
 				"Dress": "dcc_maid_TexClothGreyDark",
 				"Stockings": "dcc_maid_TexStockingGreyDark",
 				"StockingTops": "dcc_maid_TexStockingGreyDark",
@@ -324,6 +394,30 @@
 				"GarterGem": "dcc_maid_TexMetalRed",
 				"GarterSetting": "dcc_maid_TexMetalBlack"
 			} },
+			{ "Source": "Nude", "Textures": {
+				"Dress": "dcc_maid_TexClothRed",
+				"Stockings": "dcc_maid_TexStockingBlack",
+				"StockingTops": "dcc_maid_TexStockingRed",
+				"LaceDress": "dcc_maid_TexLaceBlack",
+				"LaceShoulder": "dcc_maid_TexLaceBlack",
+				"ArmourBreast": "dcc_maid_TexMetalBlack",
+				"ArmourShoulder": "dcc_maid_TexMetalBlack",
+				"ArmourStrapJunction": "dcc_maid_TexMetalBlack",
+				"ArmourThigh": "dcc_maid_TexMetalBlack",
+				"EdgeBreast": "dcc_maid_TexMetalRed",
+				"EdgeShoulder": "dcc_maid_TexMetalRed",
+				"EdgeThigh": "dcc_maid_TexMetalRed",
+				"PaddingBreast": "dcc_maid_TexClothBlack",
+				"PaddingThigh": "dcc_maid_TexClothBlack",
+				"PaddingShoulder": "dcc_maid_TexClothBlack",
+				"StrapTorso": "dcc_maid_TexLeatherBlack",
+				"StrapThigh": "dcc_maid_TexLeatherBlack",
+				"RivetThigh": "dcc_maid_TexMetalBlack",
+				"RivetTorso": "dcc_maid_TexMetalBlack",
+				"GarterStrap": "dcc_maid_TexLeatherBlack",
+				"GarterGem": "dcc_maid_TexMetalRed",
+				"GarterSetting": "dcc_maid_TexMetalBlack"
+			} },
 			{ "Source": "Gloves", "Textures": {
 				"ArmourArm": "dcc_maid_TexMetalBlack",
 				"PaddingArm": "dcc_maid_TexClothRed",
@@ -357,6 +451,30 @@
 		] },
 		{ "ID": "Solitude", "Prefix": "Solitude", "Armors": [
 			{ "Source": "Dress", "Textures": {
+				"Dress": "dcc_maid_TexClothRed",
+				"Stockings": "dcc_maid_TexStockingBlack",
+				"StockingTops": "dcc_maid_TexStockingRed",
+				"LaceDress": "dcc_maid_TexLaceWhite",
+				"LaceShoulder": "dcc_maid_TexLaceWhite",
+				"ArmourBreast": "dcc_maid_TexFactionSolitudeBreast",
+				"ArmourShoulder": "dcc_maid_TexMetalRed",
+				"ArmourStrapJunction": "dcc_maid_TexMetalRed",
+				"ArmourThigh": "dcc_maid_TexFactionSolitudeThigh",
+				"EdgeBreast": "dcc_maid_TexMetalWhite",
+				"EdgeShoulder": "dcc_maid_TexMetalWhite",
+				"EdgeThigh": "dcc_maid_TexMetalWhite",
+				"PaddingBreast": "dcc_maid_TexClothBlack",
+				"PaddingThigh": "dcc_maid_TexClothBlack",
+				"PaddingShoulder": "dcc_maid_TexClothBlack",
+				"StrapTorso": "dcc_maid_TexLeatherBlack",
+				"StrapThigh": "dcc_maid_TexLeatherBlack",
+				"RivetThigh": "dcc_maid_TexMetalWhite",
+				"RivetTorso": "dcc_maid_TexMetalWhite",
+				"GarterStrap": "dcc_maid_TexLeatherBlack",
+				"GarterGem": "dcc_maid_TexFactionSolitudeBreast",
+				"GarterSetting": "dcc_maid_TexMetalWhite"
+			} },
+			{ "Source": "Nude", "Textures": {
 				"Dress": "dcc_maid_TexClothRed",
 				"Stockings": "dcc_maid_TexStockingBlack",
 				"StockingTops": "dcc_maid_TexStockingRed",
@@ -436,6 +554,30 @@
 				"GarterGem": "dcc_maid_TexMetalStalhrim",
 				"GarterSetting": "dcc_maid_TexMetalWhite"
 			} },
+			{ "Source": "Nude", "Textures": {
+				"Dress": "dcc_maid_TexClothStalhrim",
+				"Stockings": "dcc_maid_TexStockingStalhrim",
+				"StockingTops": "dcc_maid_TexStockingCyan",
+				"LaceDress": "dcc_maid_TexLaceWhite",
+				"LaceShoulder": "dcc_maid_TexLaceWhite",
+				"ArmourBreast": "dcc_maid_TexMetalStalhrim",
+				"ArmourShoulder": "dcc_maid_TexMetalStalhrim",
+				"ArmourStrapJunction": "dcc_maid_TexMetalStalhrim",
+				"ArmourThigh": "dcc_maid_TexMetalStalhrim",
+				"EdgeBreast": "dcc_maid_TexMetalStalhrim",
+				"EdgeShoulder": "dcc_maid_TexMetalStalhrim",
+				"EdgeThigh": "dcc_maid_TexMetalStalhrim",
+				"PaddingBreast": "dcc_maid_TexClothBrown",
+				"PaddingThigh": "dcc_maid_TexClothBrown",
+				"PaddingShoulder": "dcc_maid_TexClothBrown",
+				"StrapTorso": "dcc_maid_TexLeatherBrown",
+				"StrapThigh": "dcc_maid_TexLeatherBrown",
+				"RivetThigh": "dcc_maid_TexMetalWhite",
+				"RivetTorso": "dcc_maid_TexMetalWhite",
+				"GarterStrap": "dcc_maid_TexLeatherBrown",
+				"GarterGem": "dcc_maid_TexMetalStalhrim",
+				"GarterSetting": "dcc_maid_TexMetalWhite"
+			} },
 			{ "Source": "Gloves", "Textures": {
 				"ArmourArm": "dcc_maid_TexMetalStalhrim",
 				"PaddingArm": "dcc_maid_TexClothBrown",
@@ -492,6 +634,30 @@
 				"GarterGem": "dcc_maid_TexMetalBlack",
 				"GarterSetting": "dcc_maid_TexMetalBlack"
 			} },
+			{ "Source": "Nude", "Textures": {
+				"Dress": "dcc_maid_TexClothBlack",
+				"Stockings": "dcc_maid_TexStockingBlack",
+				"StockingTops": "dcc_maid_TexStockingBlack",
+				"LaceDress": "dcc_maid_TexLaceBlack",
+				"LaceShoulder": "dcc_maid_TexLaceBlack",
+				"ArmourBreast": "dcc_maid_TexMetalBlack",
+				"ArmourShoulder": "dcc_maid_TexMetalBlack",
+				"ArmourStrapJunction": "dcc_maid_TexMetalBlack",
+				"ArmourThigh": "dcc_maid_TexMetalBlack",
+				"EdgeBreast": "dcc_maid_TexMetalBlack",
+				"EdgeShoulder": "dcc_maid_TexMetalBlack",
+				"EdgeThigh": "dcc_maid_TexMetalBlack",
+				"PaddingBreast": "dcc_maid_TexClothBlack",
+				"PaddingThigh": "dcc_maid_TexClothBlack",
+				"PaddingShoulder": "dcc_maid_TexClothBlack",
+				"StrapTorso": "dcc_maid_TexLeatherBlack",
+				"StrapThigh": "dcc_maid_TexLeatherBlack",
+				"RivetThigh": "dcc_maid_TexMetalBlack",
+				"RivetTorso": "dcc_maid_TexMetalBlack",
+				"GarterStrap": "dcc_maid_TexLeatherBlack",
+				"GarterGem": "dcc_maid_TexMetalBlack",
+				"GarterSetting": "dcc_maid_TexMetalBlack"
+			} },
 			{ "Source": "Gloves", "Textures": {
 				"ArmourArm": "dcc_maid_TexMetalBlack",
 				"PaddingArm": "dcc_maid_TexClothBlack",
@@ -525,6 +691,30 @@
 		] },
 		{ "ID": "Whiterun", "Prefix": "Whiterun", "Armors": [
 			{ "Source": "Dress", "Textures": {
+				"Dress": "dcc_maid_TexClothYellow",
+				"Stockings": "dcc_maid_TexStockingBrown",
+				"StockingTops": "dcc_maid_TexStockingYellow",
+				"LaceDress": "dcc_maid_TexLaceBrown",
+				"LaceShoulder": "dcc_maid_TexLaceBrown",
+				"ArmourBreast": "dcc_maid_TexFactionWhiterunBreast",
+				"ArmourShoulder": "dcc_maid_TexMetalBrown",
+				"ArmourStrapJunction": "dcc_maid_TexMetalBrown",
+				"ArmourThigh": "dcc_maid_TexFactionWhiterunThigh",
+				"EdgeBreast": "dcc_maid_TexMetalYellow",
+				"EdgeShoulder": "dcc_maid_TexMetalYellow",
+				"EdgeThigh": "dcc_maid_TexMetalYellow",
+				"PaddingBreast": "dcc_maid_TexClothBrown",
+				"PaddingThigh": "dcc_maid_TexClothBrown",
+				"PaddingShoulder": "dcc_maid_TexClothBrown",
+				"StrapTorso": "dcc_maid_TexLeatherBrown",
+				"StrapThigh": "dcc_maid_TexLeatherBrown",
+				"RivetThigh": "dcc_maid_TexMetalYellow",
+				"RivetTorso": "dcc_maid_TexMetalYellow",
+				"GarterStrap": "dcc_maid_TexLeatherBrown",
+				"GarterGem": "dcc_maid_TexFactionWhiterunBreast",
+				"GarterSetting": "dcc_maid_TexMetalBrown"
+			} },
+			{ "Source": "Nude", "Textures": {
 				"Dress": "dcc_maid_TexClothYellow",
 				"Stockings": "dcc_maid_TexStockingBrown",
 				"StockingTops": "dcc_maid_TexStockingYellow",
