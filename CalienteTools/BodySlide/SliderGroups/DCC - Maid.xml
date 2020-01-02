@@ -16,6 +16,7 @@
         <Member name="DCC - Maid - Armoured Legs"/>
         <Member name="DCC - Maid - Padded Legs"/>
         <Member name="DCC - Maid - Plain Legs"/>
+        <Member name="DCC - Maid - Nude (Stockings Only)"/>
     </Group>
     <Group name="DCC - Maid">
         <Member name="DCC - Maid - Plain Shoes"/>
@@ -33,5 +34,6 @@
         <Member name="DCC - Maid - Armoured Legs"/>
         <Member name="DCC - Maid - Padded Legs"/>
         <Member name="DCC - Maid - Plain Legs"/>
+        <Member name="DCC - Maid - Nude (Stockings Only)"/>
     </Group>
 </SliderGroups>
